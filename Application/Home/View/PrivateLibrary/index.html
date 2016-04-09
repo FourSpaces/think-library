@@ -1,0 +1,92 @@
+<extend name="Base/common"/>
+<!-- header start -->
+<block name="header">
+<!--
+  <div class="header">
+      <h1 class="page-title">图书管理</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="index.html">首页</a> <span class="divider">/</span></li>
+    <li class="active">图书列表</li>
+  </ul>
+-->
+<!-- title -->
+    <h3><a href="index.html">首页</a>&nbsp;&gt;&nbsp;<a href="javascript:void(0)">我的图书馆</a></h3>
+
+</block>
+<!-- header  -->
+
+<block name="content">
+	 <!-- 左侧侧边栏 -->
+        <dl class="content-left">
+            <include file="PrivateLibrary/navbar"/>
+        </dl>
+        <!-- 右侧内容区 -->
+        <div class="content-right">         
+            <h2><a href="">个人中心</a>
+                <a id="register_folds" class="noaction" href="{:U('User/changePassword')}">修改密码</a>
+            </h2>
+            <div class="well zm-profile-header-main">
+                <div class="title-section ellipsis">
+                    <span class="name">{$authIfon['username']}</span>
+                </div>
+
+                <div class="body clearfix">
+
+                    <div class="ProfileAvatarEditor">
+                        <img class="Avatar Avatar--l" src=""  >
+                    </div>
+
+                    <div class="ProfileCard">
+                        <!--authIfon -->
+                        <div class="item editable-group editing" data-name="location">
+
+                            <i class="icon icon-profile-location"></i>
+
+                            <span class="info-wrap">
+
+                            <span class="location item" title="天津职业技术师范大学">天津职业技术师范大学</span>
+                            <span class="business item" title="计算机软件"><a class="topic-link" data-token="19619368" data-topicid="23110">信息技术工程学院</a></span>
+
+                            </span>
+                        </div>
+                        <div class="item editable-group editing" data-name="location">
+
+                            <i class="icon icon-profile-location"></i>
+
+                            <span class="info-wrap">
+
+                            <span class="location item" title="天津职业技术师范大学">学号</span>
+                            <span class="business item" title="计算机软件"><a class="topic-link" data-token="19619368" data-topicid="23110">{$authIfon['loginname']}</a></span>
+
+                            </span>
+                        </div>
+                        <div class="item editable-group editing" data-name="location">
+
+                            <i class="icon icon-profile-location"></i>
+
+                            <span class="info-wrap">
+
+                            <span class="location item" title="天津职业技术师范大学">姓名</span>
+                            <span class="business item" title="计算机软件"><a class="topic-link" data-token="19619368" data-topicid="23110">{$authIfon['username']}</a></span>
+
+                            </span>
+                        </div>
+                        <div class="item editable-group editing" data-name="location">
+
+                            <i class="icon icon-profile-location"></i>
+
+                            <span class="info-wrap">
+
+                            <span class="location item" title="天津职业技术师范大学">邮箱</span>
+                            <span class="business item" title="计算机软件"><a class="topic-link" data-token="19619368" data-topicid="23110">{$authIfon['email']}</a></span>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</block>

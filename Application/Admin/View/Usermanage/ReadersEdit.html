@@ -1,0 +1,130 @@
+<extend name="Base/common"/>
+
+<!-- header start -->
+<block name="header">
+  <div class="header">
+      <h1 class="page-title">读者管理</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="">首页</a> <span class="divider">/</span></li>
+    <li class="active"><eq name="titleTab" value="1">添加<else/>编辑</eq>读者</li>
+  </ul>
+</block>
+<!-- header  -->
+
+
+<block name="content">
+<div class="container-fluid">
+  <div class="row-fluid">
+      <div class="well">
+        <form class="demoform" action="{:U('')}">
+          <input name='userid' type="hidden" value="{$info.userid|default=''}">
+          <ul style="list-style-type: none;">
+            <li>
+              <label>用户名：</label>
+              <input id="input_loginname" name="loginname" type="text" value="{$info.loginname|default=''}" class="input-xlarge" datatype="*9-20" errormsg="" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>密码：</label>
+              <input id="input_loginpwd" name="loginpwd" type="password" value="{$info.loginpwd|default=''}" class="input-xlarge" datatype="*6-20" errormsg="" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>姓名：</label>
+              <input id="input_username" name="username" type="text" value="{$info.username|default=''}" class="input-xlarge" datatype="s2-6" errormsg="姓名至少2个字符,最多6个字符！" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>用户类型</label>
+              
+              <select name="typeid" id="input_typeid" class="input-xlarge"  datatype="*" errormsg="请选择读者类型！"  sucmsg="&nbsp;">
+                <option value="">----请选择----</option>
+                <notempty name="info.typeid">
+                   <volist name="stylelist" id="type">
+                    <option value="{$type.id}"  <eq name="info.typeid" value="$type.id">selected</eq>>{$type.typename}</option>
+                   </volist>
+                  <else/>
+                   <volist name="stylelist" id="type">
+                    <option value="{$type.id}" >{$type.typename}</option>
+                   </volist>
+                </notempty>
+              </select>
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>邮箱</label>
+              <input id="input_email" name="email"  type="text" value="{$info.email|default=''}" class="input-xlarge" datatype="e" errormsg="排序值不能为空" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            
+            <li>
+              <label>状态</label>
+              <select name="status" id="input_status" class="input-xlarge"  datatype="*" errormsg="请选择状态！"  sucmsg="&nbsp;">
+                <option value="">----请选择----</option>
+                <notempty name="info.status">
+                    <option value="1" <eq name="info.status" value="1">selected</eq>>正常</option></case>
+                    <option value="2" <eq name="info.status" value="2">selected</eq>>审核中</option></case>
+
+                  <else/>
+                    <option value="1" >正常</option>
+                    <option value="2" >审核中</option>
+                </notempty>
+              </select>
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <div class="btn-toolbar">
+                <button type="submit" class="btn btn-primary"><i class="icon-save"></i>提交</button>
+                <a href="" data-toggle="modal" class="btn">返回</a>
+                <div class="btn-group"></div>
+              </div>
+            </li>
+          </ul>
+
+        </form>
+      </div>  
+  </div>
+</div>
+</block>
+
+<block name="script">
+  <script type="text/javascript" src="{:C('DOMAIN')}__LIB__/uploadify/jquery.uploadify.min.js"></script>
+  <script>
+  $(function() {
+    //初始化表单插件
+     var validform = $(".demoform").Validform({
+          tiptype:function(msg,o,cssctl){
+          //msg：提示信息;
+          //o:{obj:*,type:*,curform:*}, obj指向的是当前验证的表单元素（或表单对象），type指示提示的状态，值为1、2、3、4， 1：正在检测/提交数据，2：通过验证，3：验证失败，4：提示ignore状态, curform为当前form对象;
+          //cssctl:内置的提示信息样式控制函数，该函数需传入两个参数：显示提示信息的对象 和 当前提示的状态（既形参o中的type）;
+              if(!o.obj.is("form")){
+              //验证表单元素时o.obj为该表单元素，全部验证通过提交表单时o.obj为该表单对象;
+                  var objtip=o.obj.siblings(".Validform_checktip");
+                  cssctl(objtip,o.type);
+                  objtip.text(msg);
+              }
+          },
+          ajaxPost:true,
+          callback:function(data){
+              
+              if(data.status=="1"){
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info+'正在跳转，请稍后!');
+                  setTimeout(function(){$.Hidemsg();
+                      location.href = data.url;},2000);
+              }
+              else{
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                $.Showmsg(data.info);
+                setTimeout(function(){$.Hidemsg(); },2000);
+              }
+          }
+
+      });
+  });
+  </script>
+</block>

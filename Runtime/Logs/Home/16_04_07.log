@@ -1,0 +1,3128 @@
+[ 2016-04-07T10:10:30+08:00 ] ::1 /think-library/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000746s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000961s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.577223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.577574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.039851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.040241s ]
+
+[ 2016-04-07T10:10:36+08:00 ] ::1 /think-library/index.php/Server/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000634s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000954s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011696s ]
+
+[ 2016-04-07T10:10:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+
+[ 2016-04-07T10:10:43+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002305s ]
+
+[ 2016-04-07T10:10:45+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-04-07T10:10:45+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2016-04-07T10:10:46+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BorrowingRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+
+[ 2016-04-07T10:10:46+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-04-07T10:10:47+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-04-07T10:10:47+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2016-04-07T10:10:48+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BorrowingRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-04-07T10:10:48+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2016-04-07T10:11:05+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.0945s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1459995064' WHERE `userid` = 1 [ RunTime:0.1696s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-04-07T10:11:07+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2016-04-07T10:11:09+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.197970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-04-07T10:11:11+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2016-04-07T10:28:42+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0269s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000646s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003091s ]
+
+[ 2016-04-07T10:29:03+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002887s ]
+
+[ 2016-04-07T10:29:04+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-04-07T10:37:44+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-04-07T10:39:40+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005568s ]
+
+[ 2016-04-07T10:55:51+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-04-07T10:55:52+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001973s ]
+
+[ 2016-04-07T10:56:01+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.1790s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1459997761' WHERE `userid` = 1 [ RunTime:0.1175s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-07T10:56:03+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2016-04-07T10:56:05+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2016-04-07T10:56:06+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002903s ]
+
+[ 2016-04-07T10:56:26+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [8] Undefined variable: Book D:\wamp\www\think-library\Application\Home\Controller\PrivateLibraryController.class.php 第 121 行.
+
+[ 2016-04-07T10:56:26+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2016-04-07T11:12:13+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0368s ]
+NOTIC: [8] Undefined index: bookid D:\wamp\www\think-library\ThinkPHP\Library\Think\Model.class.php 第 1306 行.
+
+[ 2016-04-07T11:12:14+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2016-04-07T11:13:01+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004108s ]
+
+[ 2016-04-07T11:13:01+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined index: bookid D:\wamp\www\think-library\ThinkPHP\Library\Think\Model.class.php 第 1306 行.
+
+[ 2016-04-07T11:13:33+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2016-04-07T11:13:33+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: bookid D:\wamp\www\think-library\ThinkPHP\Library\Think\Model.class.php 第 1306 行.
+
+[ 2016-04-07T11:13:39+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: bookid D:\wamp\www\think-library\ThinkPHP\Library\Think\Model.class.php 第 1306 行.
+
+[ 2016-04-07T11:13:39+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2016-04-07T11:14:53+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000794s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2016-04-07T11:14:59+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000693s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004191s ]
+
+[ 2016-04-07T11:15:00+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000661s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2016-04-07T11:15:02+08:00 ] ::1 /think-library/index.php/PrivateLibrary.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2016-04-07T11:15:04+08:00 ] ::1 /think-library/index.php/user/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.0128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-04-07T11:15:05+08:00 ] ::1 /think-library/index.php/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2016-04-07T11:15:18+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.1402s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1459998917' WHERE `userid` = 1 [ RunTime:0.1772s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T11:15:20+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2016-04-07T11:15:22+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BorrowingRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002641s ]
+
+[ 2016-04-07T11:15:23+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000481s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004836s ]
+
+[ 2016-04-07T11:15:27+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2016-04-07T11:15:28+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0202s ]
+NOTIC: [8] Undefined index: bookid D:\wamp\www\think-library\ThinkPHP\Library\Think\Model.class.php 第 1306 行.
+
+[ 2016-04-07T11:15:29+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2016-04-07T11:17:38+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004548s ]
+
+[ 2016-04-07T11:17:40+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: bookid D:\wamp\www\think-library\ThinkPHP\Library\Think\Model.class.php 第 1306 行.
+
+[ 2016-04-07T11:17:41+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000647s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-04-07T11:18:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006908s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0160s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1459999122',`status`='2' WHERE `id` = 2 AND `readerid` = 1 [ RunTime:0.0922s ]
+
+[ 2016-04-07T11:18:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002854s ]
+
+[ 2016-04-07T11:18:54+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002744s ]
+
+[ 2016-04-07T11:18:56+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003401s ]
+
+[ 2016-04-07T11:18:58+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0254s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1459999138',`status`='2' WHERE `id` = 1 AND `readerid` = 1 [ RunTime:0.0684s ]
+
+[ 2016-04-07T11:18:59+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-04-07T11:19:07+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0134s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1459999147',`status`='2' WHERE `id` = 3 AND `readerid` = 1 [ RunTime:0.0614s ]
+
+[ 2016-04-07T11:19:08+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000529s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000820s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002140s ]
+
+[ 2016-04-07T11:19:11+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0254s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1459999151',`status`='2' WHERE `id` = 4 AND `readerid` = 1 [ RunTime:0.1077s ]
+
+[ 2016-04-07T11:19:11+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000726s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006462s ]
+
+[ 2016-04-07T11:19:22+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002294s ]
+
+[ 2016-04-07T11:55:51+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-04-07T11:55:51+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003459s ]
+
+[ 2016-04-07T11:56:02+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.0923s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1460001361' WHERE `userid` = 1 [ RunTime:0.3339s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T11:56:04+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003078s ]
+
+[ 2016-04-07T11:56:11+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BorrowingRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002196s ]
+
+[ 2016-04-07T11:56:13+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004725s ]
+
+[ 2016-04-07T12:24:25+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002148s ]
+
+[ 2016-04-07T12:24:27+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-04-07T12:25:21+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1138s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1566s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0381s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0012s ]
+
+[ 2016-04-07T12:25:28+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0191s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460003128','1','1460006728') [ RunTime:0.0993s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0720s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-1' WHERE `id` = 4 [ RunTime:0.0895s ]
+
+[ 2016-04-07T12:25:54+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+
+[ 2016-04-07T12:25:56+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2016-04-07T12:26:06+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-04-07T12:26:07+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002221s ]
+
+[ 2016-04-07T12:26:17+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.1145s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1460003177' WHERE `userid` = 1 [ RunTime:0.0814s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-07T12:26:19+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002942s ]
+
+[ 2016-04-07T12:26:22+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2016-04-07T12:26:28+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0946s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1485s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:26:31+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0374s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460003190','1','1460006790') [ RunTime:0.1196s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0865s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-2' WHERE `id` = 4 [ RunTime:0.0759s ]
+
+[ 2016-04-07T12:26:45+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0320s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460003205','1','1460006805') [ RunTime:0.0895s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-3' WHERE `id` = 4 [ RunTime:0.0688s ]
+
+[ 2016-04-07T12:26:49+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0139s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460003209','1','1460006809') [ RunTime:0.0766s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1602s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:27:07+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000659s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004538s ]
+
+[ 2016-04-07T12:27:19+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2016-04-07T12:32:46+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2016-04-07T12:33:02+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005170s ]
+
+[ 2016-04-07T12:33:24+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001847s ]
+
+[ 2016-04-07T12:33:27+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-2' WHERE `id` = 4 [ RunTime:0.1030s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0344s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460003607',`status`='2' WHERE `id` = 6 AND `readerid` = 1 [ RunTime:0.1060s ]
+
+[ 2016-04-07T12:33:27+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003399s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2016-04-07T12:33:41+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0851s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-1' WHERE `id` = 4 [ RunTime:0.1148s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0122s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460003620',`status`='2' WHERE `id` = 5 AND `readerid` = 1 [ RunTime:0.2393s ]
+
+[ 2016-04-07T12:33:41+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000444s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002099s ]
+
+[ 2016-04-07T12:33:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='0' WHERE `id` = 4 [ RunTime:0.0699s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.1496s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460003622',`status`='2' WHERE `id` = 7 AND `readerid` = 1 [ RunTime:0.0806s ]
+
+[ 2016-04-07T12:33:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000914s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2016-04-07T12:34:24+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2016-04-07T12:34:29+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1222s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1808s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0266s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0004s ]
+
+[ 2016-04-07T12:36:04+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000677s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005934s ]
+
+[ 2016-04-07T12:36:12+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0896s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1630s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0084s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:36:32+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2016-04-07T12:36:38+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0846s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1806s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.1238s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:39:38+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2016-04-07T12:39:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1253s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1281s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0088s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:39:47+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0291s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-1' WHERE `id` = 4 [ RunTime:0.1810s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460003987','1','1460007587') [ RunTime:0.0542s ]
+
+[ 2016-04-07T12:40:00+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0378s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:41:58+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007070s ]
+
+[ 2016-04-07T12:42:02+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html?searchType=1&searchContent=%E5%A4%A7%E5%AD%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-04-07T12:42:08+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html?searchType=1&searchContent=%E5%A4%A7%E5%AD%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-04-07T12:42:12+08:00 ] ::1 /think-library/index.php/Server/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2016-04-07T12:42:14+08:00 ] ::1 /think-library/index.php/PrivateLibrary.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000577s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000893s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-04-07T12:42:16+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2016-04-07T12:42:21+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html?searchType=1&searchContent=%E5%A4%A7%E5%AD%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-04-07T12:43:20+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000469s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006510s ]
+
+[ 2016-04-07T12:44:04+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005353s ]
+
+[ 2016-04-07T12:45:13+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000728s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002489s ]
+
+[ 2016-04-07T12:45:23+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1326s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1413s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0652s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T12:45:30+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-1' WHERE `id` = 5 [ RunTime:0.1357s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','5','1','1460004330','1','1460007930') [ RunTime:0.0190s ]
+
+[ 2016-04-07T12:45:32+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002945s ]
+
+[ 2016-04-07T12:47:17+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004459s ]
+
+[ 2016-04-07T12:47:22+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0707s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1350s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0007s ]
+
+[ 2016-04-07T12:48:36+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2016-04-07T12:48:39+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2016-04-07T13:00:50+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-04-07T13:00:50+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000606s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000899s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2016-04-07T13:02:04+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.1830s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1460005323' WHERE `userid` = 1 [ RunTime:0.0782s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T13:02:06+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-04-07T13:02:15+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000811s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.222405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003454s ]
+
+[ 2016-04-07T13:02:23+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0899s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1392s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0173s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T13:02:26+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-2' WHERE `id` = 4 [ RunTime:0.0686s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460005346','1','1460008946') [ RunTime:0.0244s ]
+
+[ 2016-04-07T13:02:29+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.214055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2016-04-07T13:02:34+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0657s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0866s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T13:02:36+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-3' WHERE `id` = 4 [ RunTime:0.1367s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','4','1','1460005356','1','1460008956') [ RunTime:0.0401s ]
+
+[ 2016-04-07T13:02:39+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2016-04-07T13:02:46+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0997s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1547s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.1742s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T18:14:15+08:00 ] ::1 /think-library/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000738s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000960s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031828s ]
+
+[ 2016-04-07T18:14:20+08:00 ] ::1 /think-library/index.php/Server/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002812s ]
+
+[ 2016-04-07T18:14:23+08:00 ] ::1 /think-library/index.php/PrivateLibrary.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+
+[ 2016-04-07T18:14:23+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000715s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2016-04-07T18:14:33+08:00 ] ::1 /think-library/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_readerinfo` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `loginname` = '02230154106' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Home\Model\ReaderinfoModel.class.php 第 76 行.
+SQL: UPDATE `lib_readerinfo` SET `lasttime`='1460024072' WHERE `userid` = 1 [ RunTime:0.1141s ]
+SQL: SELECT * FROM `lib_readerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-07T18:14:35+08:00 ] ::1 /think-library/index.php/PrivateLibrary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002384s ]
+
+[ 2016-04-07T18:14:36+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000720s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2016-04-07T18:15:14+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BorrowingRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002896s ]
+
+[ 2016-04-07T18:15:16+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2016-04-07T18:15:21+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1342s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1496s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0113s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+
+[ 2016-04-07T18:15:27+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-2' WHERE `id` = 5 [ RunTime:0.2567s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','5','1','1460024127','1','1460027727') [ RunTime:0.0672s ]
+
+[ 2016-04-07T18:15:29+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003420s ]
+
+[ 2016-04-07T18:15:34+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0833s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1116s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0088s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T18:36:09+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002665s ]
+
+[ 2016-04-07T18:36:21+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1120s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.1430s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+
+[ 2016-04-07T18:38:00+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T18:38:01+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2016-04-07T18:38:05+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1078s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0416s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+
+[ 2016-04-07T18:39:05+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005303s ]
+
+[ 2016-04-07T18:39:09+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1018s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0457s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0101s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0007s ]
+
+[ 2016-04-07T18:41:38+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002674s ]
+
+[ 2016-04-07T18:41:41+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0991s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0370s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+
+[ 2016-04-07T18:42:44+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2016-04-07T18:42:56+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BookRetrieval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.1025s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `bookname` LIKE '%大学%' AND `status` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0464s ]
+SQL: SELECT `id`,`typename` FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`pressname` FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+
+[ 2016-04-07T18:43:03+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-3' WHERE `id` = 5 [ RunTime:0.0740s ]
+SQL: INSERT INTO `lib_borrowinfo` (`readerid`,`bookid`,`managerid`,`borrowtime`,`status`,`endttime`) VALUES ('1','5','1','1460025783','1','1460029383') [ RunTime:0.0223s ]
+
+[ 2016-04-07T18:43:05+08:00 ] ::1 /think-library/index.php/PrivateLibrary/LendBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004486s ]
+
+[ 2016-04-07T18:43:43+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2016-04-07T18:43:48+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-2' WHERE `id` = 4 [ RunTime:0.0739s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0102s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460025827',`status`='2' WHERE `id` = 9 AND `readerid` = 1 [ RunTime:0.0738s ]
+
+[ 2016-04-07T18:43:48+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003393s ]
+
+[ 2016-04-07T18:43:49+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-2' WHERE `id` = 5 [ RunTime:0.0684s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0265s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460025829',`status`='2' WHERE `id` = 10 AND `readerid` = 1 [ RunTime:0.0951s ]
+
+[ 2016-04-07T18:43:50+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2016-04-07T18:43:52+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='-1' WHERE `id` = 4 [ RunTime:0.0837s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0098s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460025832',`status`='2' WHERE `id` = 11 AND `readerid` = 1 [ RunTime:0.0521s ]
+
+[ 2016-04-07T18:43:52+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 4 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-04-07T18:43:53+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `lib_bookinfo` SET `status`='1',`nownum`='0' WHERE `id` = 4 [ RunTime:0.1198s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.1215s ]
+SQL: UPDATE `lib_borrowinfo` SET `returntime`='1460025833',`status`='2' WHERE `id` = 12 AND `readerid` = 1 [ RunTime:0.1390s ]
+
+[ 2016-04-07T18:43:54+08:00 ] ::1 /think-library/index.php/PrivateLibrary/AlsoBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `lib_borrowinfo` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`readerid`,`bookid`,`managerid`,`borrowtime`,`returntime`,`endttime`,`status` FROM `lib_borrowinfo` WHERE `status` < 2 AND `readerid` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lib_bookinfo` WHERE `id` = 5 AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2016-04-07T18:43:56+08:00 ] ::1 /think-library/index.php/PrivateLibrary/BorrowingRecord.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+

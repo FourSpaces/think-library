@@ -1,0 +1,188 @@
+<extend name="Base/common"/>
+
+<!-- header start -->
+<block name="header">
+  <div class="header">
+      <h1 class="page-title">图书列表</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="">首页</a> <span class="divider">/</span></li>
+    <li class="active"><eq name="titleTab" value="1">添加<else/>编辑</eq>图书</li>
+  </ul>
+</block>
+<!-- header  -->
+
+
+<block name="content">
+<div class="container-fluid">
+  <div class="row-fluid">
+      <div class="well">
+        <form class="demoform" action="{:U('')}">
+          <input name='bookid' type="hidden" value="{$info.id|default=''}">
+          <ul style="list-style-type: none;">
+            <li>
+              <label>图书ISBN码：</label>
+              <input id="input_isbn" name="isbn" type="text" value="{$info.isbn|default=''}" class="input-xlarge" datatype="*9-20" errormsg="" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>图书名称：</label>
+              <input id="input_bookname" name="bookname" type="text" value="{$info.bookname|default=''}" class="input-xlarge" datatype="s2-12" errormsg="分类名称至少2个字符,最多12个字符！" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>选择分类</label>
+              
+              <select name="typeid" id="input_typeid" class="input-xlarge"  datatype="*" errormsg="请选择图书的分类！"  sucmsg="&nbsp;">
+                <option value="">----请选择----</option>
+                <notempty name="info.typeid">
+                   <volist name="stylelist" id="type">
+                    <option value="{$type.id}"  <eq name="info.typeid" value="$type.id">selected</eq>>{$type.typename}</option>
+                   </volist>
+                  <else/>
+                   <volist name="stylelist" id="type">
+                    <option value="{$type.id}" >{$type.typename}</option>
+                   </volist>
+                </notempty>
+              </select>
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <label>选择出版社</label>
+              <select name="publisherid" id="input_publisherid"  class="input-xlarge" datatype="*" errormsg="请选择出版社！"  sucmsg="&nbsp;" >
+                <option value="">----请选择----</option>
+                <notempty name="info.publisherid">
+                   <volist name="presslist" id="type">
+                    <option value="{$type.id}"  <eq name="info.publisherid" value="$type.id">selected</eq>>{$type.pressname}</option>
+                   </volist>
+                  <else/>
+                   <volist name="presslist" id="type">
+                    <option value="{$type.id}" >{$type.pressname}</option>
+                   </volist>
+                </notempty>
+              </select>
+              <span class="Validform_checktip"></span>
+            </li>
+            
+            <li>
+              <label>作者</label>
+              <input id="input_author" name="author"  type="text" value="{$info.author|default='0'}" class="input-xlarge" datatype="s2-12" errormsg="排序值不能为空" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            
+            <li>
+              <label>页数</label>
+              <input id="input_page" name="page" type="number" value="{$info.page|default='0'}" class="input-xlarge" datatype="*" errormsg="页数不能为空" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+            
+            <li>
+              <label>图书数量</label>
+              <input id="input_sumnum" name="sumnum" type="number" value="{$info.sumnum|default='1'}" class="input-xlarge" datatype="*" errormsg="图书数量不能为空" sucmsg="&nbsp;">
+              <span class="Validform_checktip"></span>
+            </li>
+
+            <li>
+              <label>封面</label>
+              <input id="input_frontcover" name="frontcover" type="number" value="{$info.frontcover|default='0'}" class="input-xlarge" datatype="*" errormsg="排序值不能为空" sucmsg="&nbsp;">
+              <!--
+              <input type="file" id="upload_picture">
+              <input type="hidden" name="portrait" id="input_frontcover" value="0"/>
+              <div class="upload-img-box">
+                <notempty name="info['portrait']">
+                  <div class="upload-pre-item"><img src="{$info.portrait|get_cover='path'}"/></div>
+                </notempty>
+              </div>
+              -->
+              <span class="Validform_checktip"></span>
+            </li>
+            <li>
+              <div class="btn-toolbar">
+                <button type="submit" class="btn btn-primary"><i class="icon-save"></i> 提交</button>
+                <a href="" data-toggle="modal" class="btn">返回</a>
+                <div class="btn-group"></div>
+              </div>
+            </li>
+          </ul>
+
+        </form>
+      </div>  
+  </div>
+</div>
+</block>
+
+<block name="script">
+  <script type="text/javascript" src="{:C('DOMAIN')}__LIB__/uploadify/jquery.uploadify.min.js"></script>
+  <script>
+    /* 初始化上传插件 */
+    $("#upload_picture").uploadify({
+          "height"          : 30,
+          "swf"             : "{:C('DOMAIN')}__LIB__/uploadify/uploadify.swf",
+          "fileObjName"     : "download",
+          "buttonText"      : "上传图片",
+          "uploader"        : "{:U('File/uploadPicture',array('session_id'=>session_id()))}",
+          "width"           : 120,
+          'removeTimeout'   : 1,
+          'fileTypeExts'    : '*.jpg; *.png; *.gif;',
+          "onUploadSuccess" : uploadPicture,
+          'onFallback' : function() {
+              alert('未检测到兼容版本的Flash.');
+          }
+      });
+    function uploadPicture(file, data){
+        var data = $.parseJSON(data);
+        var src = '';
+          if(data.status){
+            $("#img").val(data.id);
+            src = data.url || '__ROOT__' + data.path;
+            $("#img").parent().find('.upload-img-box').html(
+              '<div class="upload-pre-item"><img src="' + src + '"/></div>'
+            );
+          } else {
+            updateAlert(data.info);
+            setTimeout(function(){
+                  $('#top-alert').find('button').click();
+                  $(that).removeClass('disabled').prop('disabled',false);
+              },1500);
+          }
+      }
+  </script>
+
+  <script>
+  $(function() {
+    //初始化表单插件
+     var validform = $(".demoform").Validform({
+          tiptype:function(msg,o,cssctl){
+          //msg：提示信息;
+          //o:{obj:*,type:*,curform:*}, obj指向的是当前验证的表单元素（或表单对象），type指示提示的状态，值为1、2、3、4， 1：正在检测/提交数据，2：通过验证，3：验证失败，4：提示ignore状态, curform为当前form对象;
+          //cssctl:内置的提示信息样式控制函数，该函数需传入两个参数：显示提示信息的对象 和 当前提示的状态（既形参o中的type）;
+              if(!o.obj.is("form")){
+              //验证表单元素时o.obj为该表单元素，全部验证通过提交表单时o.obj为该表单对象;
+                  var objtip=o.obj.siblings(".Validform_checktip");
+                  cssctl(objtip,o.type);
+                  objtip.text(msg);
+              }
+          },
+          ajaxPost:true,
+          callback:function(data){
+              
+              if(data.status=="1"){
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info+'正在跳转，请稍后!');
+                  setTimeout(function(){$.Hidemsg();
+                      location.href = data.url;},2000);
+              }
+              else{
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                $.Showmsg(data.info);
+                setTimeout(function(){$.Hidemsg(); },2000);
+              }
+          }
+
+      });
+  });
+  </script>
+</block>

@@ -1,0 +1,145 @@
+<extend name="Base/common"/>
+
+<!-- header start -->
+<block name="header">
+  <div class="header">
+      <h1 class="page-title">读者管理</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="">首页</a> <span class="divider">/</span></li>
+    <li class="active">读者列表</li>
+  </ul>
+</block>
+<!-- header  -->
+
+
+<block name="content">
+<div class="container-fluid">
+    <div class="row-fluid">
+            
+
+<div class="btn-toolbar">
+   <a href="{:U('Admin/Usermanage/ReadersAdd')}" class="btn btn-primary"><i class="icon-plus"></i>添加读者</a>
+    <!--
+    <button class="btn">Import</button>
+    <button class="btn">Export</button>
+  -->
+  <div class="btn-group">
+  </div>
+</div>
+<div class="well">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>用户名</th>
+          <th>姓名</th>
+          <th>用户类型</th>
+          <th>邮箱</th>
+          <!--
+          <th>封面</th>
+        -->
+          <th>更新时间</th>
+          <th>最后登录</th>
+          <th>状态</th>
+          <th style="width: 80px;">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+          <notempty name="list">
+            <volist name="list" id="order" key="k">
+              <tr>
+                <td>{$k}</td>
+                <td>{$order.loginname}</td>
+                <td>{$order.username}</td>
+                <td>
+                  <volist name="stylelist" id="vo">
+                    <eq name="vo.id" value="$order.typeid">{$vo.typename}</eq>
+                  </volist>
+                </td> 
+                <td>{$order.email}</td>            
+                <td><eq name='order.updatetime' value='0'>暂无记录<else/>{$order.updatetime|date='Y-m-d H:i',###}</eq></td>
+                <td><eq name='order.lasttime' value='0'>暂无记录<else/>{$order.lasttime|date='Y-m-d H:i',###}</eq></td>
+                <td>
+                    <switch name="order.status">
+                    <case value="1">正常</case>
+                    <case value="2">审核中</case>
+                    <default />参数错误
+                    </switch>
+                </td>
+                <td>
+                  <a href="{:U('Admin/Usermanage/ReadersEdit',array('id'=>$order['userid']))}" title="编辑"><i class="icon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
+                  <!-- href="#myModal"  -->
+                  <a role="button" title="删除"  ><i class="icon-remove" onclick="deletestyle({$order.userid})"></i></a>
+                </td>
+              </tr>
+            </volist>
+                        
+            <else/>
+            <td colspan="9" class="text-center"> aOh! 暂时还没有内容! </td>
+          </notempty>
+      </tbody>
+    </table>
+</div>
+    <div class="pagination">
+        {$_page}
+    </div>
+
+
+    <!-- 删除弹窗 -->
+    <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">删除确认</h3>
+        </div>
+        <div class="modal-body">
+            <p class="error-text"><i class="icon-warning-sign modal-icon"></i>你确定要删除</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+            <button id="modal_delete" class="btn btn-danger" data-dismiss="modal">删除</button>
+        </div>
+    </div>
+            
+    </div>
+</div>
+</block>
+
+<block name="script">
+  <script>
+    function deletestyle(value){
+          //显示模态框
+          $('#myModal').modal('show');
+          $("#modal_delete").on("click",function(){
+            //在点击按钮后延迟动作
+            setTimeout(function(){
+              $.post("{:U('Admin/Usermanage/deleteReaders')}",{ id:value,},
+                function(data,status){
+                  
+                if(data.status=="1"){
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info+'正在跳转，请稍后!');
+                  setTimeout(function(){$.Hidemsg();
+                      location.href = data.url;},1800);
+                }
+                else{
+                    //$.Hidemsg()公用方法关闭信息提示框;
+                    //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info);
+                  setTimeout(function(){$.Hidemsg(); },1800);
+                }
+
+                });
+            },200);
+            });
+        }
+
+    //模态窗口关闭后 移除 事件
+    $('#myModal').on('hidden.bs.modal', function () {
+      // 执行一些动作...
+      $("#modal_delete").off("click");
+    })
+  </script>
+</block>

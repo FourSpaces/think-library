@@ -1,0 +1,15 @@
+    <dt>我的图书馆</dt>
+    <eq name="sidebar" value="L&R">
+     <dd class="action"><a href="{:U('User/login')}"><span>登陆</span>/<span>注册</span></a></dd>
+     <dd><a href="{:U('PrivateLibrary/LendBook')}">借书/还书</a></dd>
+     <dd><a href="{:U('PrivateLibrary/BorrowingRecord')}">借阅记录</a></dd>
+    <else/>
+     <dd class=<eq name="sidebar" value="index">'action'<else/>''</eq>>
+        <a href="{:U('PrivateLibrary/index')}" >个人中心</a></dd>
+     <dd class=<eq name="sidebar" value="lend&also">'action'<else/>''</eq>>
+        <a href="{:U('PrivateLibrary/LendBook')}">借书/还书</a></dd>
+     <dd class=<eq name="sidebar" value="Borrowing">'action'<else/>''</eq>>
+        <a href="{:U('PrivateLibrary/BorrowingRecord')}">借阅记录</a></dd>
+     <dd>
+        <a href="{:U('user/logout')}">注销登陆</a></dd>
+    </eq>

@@ -1,0 +1,75 @@
+<extend name="Base/common"/>
+<!-- header start -->
+<block name="header">
+<!--
+  <div class="header">
+      <h1 class="page-title">图书管理</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="index.html">首页</a> <span class="divider">/</span></li>
+    <li class="active">图书列表</li>
+  </ul>
+-->
+<!-- title -->
+    <h3><a href="index.html">首页</a>&nbsp;&gt;&nbsp;<a href="javascript:void(0)">我的图书馆</a></h3>
+
+</block>
+<!-- header  -->
+
+
+<block name="content">
+     <!-- 左侧侧边栏 -->
+        <dl class="content-left">
+            <include file="PrivateLibrary/navbar"/>
+        </dl>
+        <!-- 右侧内容区 -->
+        <div class="content-right">         
+            <h2>
+                <a id="register_folds"  href="">借阅记录</a>
+            </h2>
+            <div style="margin:20px 0px;">
+              <div class="well">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                            <th>图书名字</th>
+                            <th>图书IBIN码</th>
+                            <th>借出时间</th>
+                            <th>违约时间</th>
+                            <th>状态</th>
+                          </tr>
+                      </thead>
+                      <tbody id ="book-tbdoy">
+                        <notempty name="list">
+                          <volist name="list" id="order">
+                            <tr>
+                              <td>{$order.bookname}</td>
+                              <td>{$order.isbn}</td>
+                              <td>{$order.borrowtime|date='Y-m-d H:i',###}</td>            
+                              <td>{$order.endttime|date='Y-m-d H:i',###}</td>
+                              <td>
+                                <switch name="order.status">
+                                  <case value="0">已过期</case>
+                                  <case value="1">借阅中</case>
+                                  <case value="2">已还回</case>
+                                  <case value="3">借出审核中</case>
+                                  <case value="4">还回审核中</case>
+                                  <default />未知状态
+                                </switch>
+                              </td>
+                            </tr>
+                          </volist>
+                                      
+                          <else/>
+                          <td colspan="6" class="text-center"> aOh! 暂时还没有内容! </td>
+                        </notempty>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="pagination">
+                {$_page}
+              </div>
+        </div>
+        </div>
+</block>

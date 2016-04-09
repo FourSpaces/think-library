@@ -1,0 +1,40 @@
+<!-- 侧边导航栏 -->
+
+    <!-- 侧边栏导航 start  -->
+    <div class="sidebar-nav">
+        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>Dashboard</a>
+        <ul id="dashboard-menu" class=<eq name="menuTab" value="dashboard-menu">"nav nav-list collapse in"<else/>"nav nav-list collapse"</eq>>
+            <li class=<eq name="pageTab" value="pageSY">"active"<else/>""</eq> ><a href="{:U('Admin/Index/index')}">首页</a></li>
+            <li class=<eq name="pageTab" value="pageWZPZ">"active"<else/>""</eq>><a href="{:U('Admin/Config/index')}">网站配置</a></li>
+            <li class=<eq name="pageTab" value="page1">"active"<else/>""</eq>><a href="users.html">Sample List</a></li>
+            <li class=<eq name="pageTab" value="page1">"active"<else/>""</eq>><a href="media.html">Media</a></li>
+            <li class=<eq name="pageTab" value="page1">"active"<else/>""</eq>><a href="calendar.html">Calendar</a></li>
+            
+        </ul>
+
+        <a href="#user-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>用户管理<i class="icon-chevron-up"></i></a>
+        <ul id="user-menu" class=<eq name="menuTab" value="user-menu">"nav nav-list collapse in"<else/>"nav nav-list collapse"</eq>>
+            <li class=<eq name="pageTab" value="pageDZGL">"active"<else/>""</eq>><a href="{:U('Admin/Usermanage/ReadersList')}">读者管理</a></li>
+            <li class=<eq name="pageTab" value="pageGLYGL">"active"<else/>""</eq>><a href="{:U('Admin/Usermanage/AdministratorList')}">管理员管理</a></li>
+            <li class=<eq name="pageTab" value="page1">"active"<else/>""</eq>><a href="500.html">500 page</a></li>
+            <li class=<eq name="pageTab" value="page1">"active"<else/>""</eq>><a href="503.html">503 page</a></li>
+        </ul>
+
+        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<span class="label label-info">+3</span></a>
+        <ul id="books-menu" class=<eq name="menuTab" value="books-menu">"nav nav-list collapse in"<else/>"nav nav-list collapse"</eq>>
+            <li class=<eq name="pageTab" value="pageTSLX">"active"<else/>""</eq>><a href="{:U('Admin/Bookmanage/bookstyle')}">图书类型</a></li>
+            <li class=<eq name="pageTab" value="pageCBS">"active"<else/>""</eq>><a href="{:U('Admin/Bookmanage/presslist')}">出版社列表</a></li>
+            <li class=<eq name="pageTab" value="pageTSLB">"active"<else/>""</eq>><a href="{:U('Admin/Bookmanage/booklist')}">图书列表</a></li>
+            <li class=<eq name="pageTab" value="pageJHSH">"active"<else/>""</eq>><a href="{:U('Admin/Bookmanage/bookcheck')}">借还审核</a></li>
+        </ul>
+
+        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理</a>
+        <ul id="rich-menu" class=<eq name="menuTab" value="rich-menu">"nav nav-list collapse in"<else/>"nav nav-list collapse"</eq>>
+            <li class=<eq name="pageTab" value="pageWZ">"active"<else/>""</eq>><a href="privacy-policy.html">文章</a></li>
+            <li class=<eq name="pageTab" value="pageTZ">"active"<else/>""</eq>><a href="terms-and-conditions.html">通知</a></li>
+        </ul>
+
+        <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>Help</a>
+        <a href="faq.html" class="nav-header" ><i class="icon-comment"></i>Faq</a>
+    </div>
+    <!-- 侧边栏导航 end  -->

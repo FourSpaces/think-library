@@ -1,5 +1,9 @@
 <?php
 namespace Admin\Controller;
+
+/**
+ * 图书管理控制器
+ */
 class BookmanageController extends AdminController {
 
     protected function _initialize(){

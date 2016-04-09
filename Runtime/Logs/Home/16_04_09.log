@@ -3027,3 +3027,83 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
 ERR: 模板不存在:./Application/Home/View/Index/index.html
 
+[ 2016-04-09T19:27:35+08:00 ] ::1 /think-library/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000946s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004204s ]
+
+[ 2016-04-09T19:31:05+08:00 ] ::1 /think-library/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000892s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002396s ]
+
+[ 2016-04-09T19:34:25+08:00 ] ::1 /think-library/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000725s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002353s ]
+
+[ 2016-04-09T23:22:48+08:00 ] ::1 /think-library/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000965s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002941s ]
+

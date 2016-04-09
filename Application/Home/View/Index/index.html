@@ -1,11 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>大连大学图书馆</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/css/index.css">
-	<script type="text/javascript" src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="{:C('DOMAIN')}__CSS__/reset.css">
+	<link rel="stylesheet" type="text/css" href="{:C('DOMAIN')}__CSS__/index.css">
+	<script type="text/javascript" src="{:C('DOMAIN')}__JS__/index.js"></script>
 	<!-- 百度地图API -->
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=iBUgAroTOcTe61Z982tEp36i"></script>
 </head>
@@ -16,7 +16,7 @@
 		<div class="header">
 			<!-- 左上角logo -->
 			<a href="javascript:void(0)" class="logo">
-				<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/logo.png" alt="logo">
+				<img src="{:C('DOMAIN')}__IMG__/logo.png" alt="logo">
 			</a>
 			<!-- 右上角菜单 -->
 			<div class="menu">
@@ -26,7 +26,7 @@
 				<span>|</span>
 				<a href="javascript:void(0)" class="qcode">PAD版
 					<div class="tips">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/qcode.png">
+						<img src="{:C('DOMAIN')}__IMG__/qcode.png">
 						<br>
 						<span>扫描访问PAD版</span>
 					</div>
@@ -34,7 +34,7 @@
 				<span>|</span>
 				<a href="javascript:void(0)" class="qcode">手机版
 					<div class="tips">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/qcode.png">
+						<img src="{:C('DOMAIN')}__IMG__/qcode.png">
 						<br>
 						<span>扫描访问手机版</span>
 					</div>
@@ -62,7 +62,7 @@
 		<!-- 日历框 -->
 		<div class="calendar">
 			<a href="javascript:void(0)" class="calendar-icon"><!-- 日历活动 --></a>
-			<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/calendarpic.jpg" class="calendar-pic">
+			<img src="{:C('DOMAIN')}__IMG__/calendarpic.jpg" class="calendar-pic">
 			<ul class="calendar-week">
 				<li>星期日<span>SUN</span></li>
 				<li>星期一<span>MON</span></li>
@@ -183,17 +183,17 @@
 				<div class="content-list-blue">
 					<!-- 学科服务简介 -->
 					<div class="service-msg listitem">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/service.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/service.jpg">
 						<p>中国高校人文社会科学文献中心是全国性的唯一的人文社科外文期刊文献保障体系。CASHL人文社科外文期刊目次数据库收录了11100种国外人文社会科学领域的重要期刊…<a href="#" class="details">[详细]</a></p>
 					</div>
 					<!-- 文献传递简介 -->
 					<div class="service-msg listitem" style="display: none;">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/service.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/service.jpg">
 						<p>请点击<a href="" class="details">[详细]</a>查看具体内容</p>
 					</div>
 					<!-- 信息咨询简介 -->
 					<div class="service-msg listitem" style="display: none;">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/service.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/service.jpg">
 						<p>暂无资料</a></p>
 					</div>
 				</div>
@@ -228,11 +228,11 @@
 				</h3>
 				<ul class="book-wrapper">
 					<li>
-						<a href="#" class="brown"><img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/book1.jpg">红高粱</a>
+						<a href="#" class="brown"><img src="{:C('DOMAIN')}__IMG__/book1.jpg">红高粱</a>
 						<span>莫言作品</span>
 					</li>
 					<li>
-						<a href class="brown"><img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/book2.png">平凡的世界</a>
+						<a href class="brown"><img src="{:C('DOMAIN')}__IMG__/book2.png">平凡的世界</a>
 						<span>路遥作品</span>
 					</li>
 				</ul>
@@ -274,19 +274,19 @@
 					<!-- 馆舍风貌 -->
 					<ul class="houseview listitem" style="display: none;">
 						<li><a href="#">
-							<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/mainout.jpg">
+							<img src="{:C('DOMAIN')}__IMG__/mainout.jpg">
 							<span class="brown">主楼外部</span>
 						</a></li>
 						<li><a href="#">
-							<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/mainin.jpg">
+							<img src="{:C('DOMAIN')}__IMG__/mainin.jpg">
 							<span class="brown">主楼内部</span>
 						</a></li>
 						<li><a href="#">
-							<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/supout.jpg">
+							<img src="{:C('DOMAIN')}__IMG__/supout.jpg">
 							<span class="brown">辅楼外部</span>
 						</a></li>
 						<li><a href="#">
-							<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/supin.jpg">
+							<img src="{:C('DOMAIN')}__IMG__/supin.jpg">
 							<span class="brown">辅楼内部</span>
 						</a></li>
 					</ul>
@@ -398,43 +398,43 @@
 				</h3>
 				<ul class="pic">
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic1.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic1.jpg">
 						<span class="brown">图书馆占座之我见</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic2.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic2.jpg">
 						<span class="brown">对图书馆占座问题的几点看法</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic3.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic3.jpg">
 						<span class="brown">参观关向应纪念馆有感</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic4.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic4.jpg">
 						<span class="brown">女人当自尊自爱自信自强---读《简爱》有感</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic5.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic5.jpg">
 						<span class="brown">与那些好书的偶然邂逅</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic6.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic6.jpg">
 						<span class="brown">图书馆重视安全教育，启动应急预案</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic7.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic7.jpg">
 						<span class="brown">一个熟悉又陌生的城市—汕头</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic8.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic8.jpg">
 						<span class="brown">坚守信念--关向应纪念馆观后感</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic9.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic9.jpg">
 						<span class="brown">现实与虚幻中的孤独</span>
 					</a></li>
 					<li><a href="#">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/pic10.jpg">
+						<img src="{:C('DOMAIN')}__IMG__/pic10.jpg">
 						<span class="brown">一杯茶一把椅</span>
 					</a></li>
 				</ul>
@@ -868,18 +868,18 @@
 				</div>
 				<div class="qrcode">
 					<div class="box">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/qcode.jpg" alt="">
+						<img src="{:C('DOMAIN')}__IMG__/qcode.jpg" alt="">
 						<p>微信公众号</p>
 					</div>
 					<div class="box">
-						<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/qcode.jpg" alt="">
+						<img src="{:C('DOMAIN')}__IMG__/qcode.jpg" alt="">
 						<p>新浪微博</p>
 					</div>
 				</div>
 			</div>
 			<!-- 右侧内容(百度地图) -->
 			<div class="content-right" id="bdmap">
-				<!-- <img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/map.png" width="615" height="468"> -->
+				<!-- <img src="{:C('DOMAIN')}__IMG__/map.png" width="615" height="468"> -->
 			</div>
 		</div>
 	</div>

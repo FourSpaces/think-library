@@ -46,3 +46,237 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
 
+[ 2016-04-09T23:22:54+08:00 ] ::1 /think-library/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-04-09T23:22:54+08:00 ] ::1 /think-library/admin.php/Publics/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-04-09T23:23:07+08:00 ] ::1 /think-library/admin.php/Publics/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `lib_managerinfo` [ RunTime:0.1873s ]
+SQL: SELECT * FROM `lib_managerinfo` WHERE `loginname` = 'admin' AND `status` = 1 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant UC_AUTH_KEY - assumed 'UC_AUTH_KEY' D:\wamp\www\think-library\Application\Admin\Model\ManagerinfoModel.class.php 第 74 行.
+SQL: UPDATE `lib_managerinfo` SET `lasttime`='1460215386' WHERE `userid` = 1 [ RunTime:0.1108s ]
+SQL: SELECT * FROM `lib_managerinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-04-09T23:23:09+08:00 ] ::1 /think-library/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2016-04-09T23:23:18+08:00 ] ::1 /think-library/admin.php/Index/privacy-policy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+ERR: 非法操作:privacy-policy
+
+[ 2016-04-09T23:23:55+08:00 ] ::1 /think-library/admin.php/Index/privacy-policy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+ERR: 非法操作:privacy-policy
+
+[ 2016-04-09T23:24:07+08:00 ] ::1 /think-library/admin.php/Index/help.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+ERR: 非法操作:help
+
+[ 2016-04-09T23:50:12+08:00 ] ::1 /think-library/admin.php/Bookmanage/booklist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `lib_bookinfo` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lib_bookinfo` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`isbn`,`bookname`,`typeid`,`author`,`publisherid`,`frontcover`,`page`,`sumnum`,`createtime`,`updatetime`,`status`,`bookcaseid`,`remark`,`nownum` FROM `lib_bookinfo` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lib_booktype` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `lib_booktype` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lib_publisher` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `lib_publisher` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.409236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.409541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007245s ]
+
+[ 2016-04-09T23:50:14+08:00 ] ::1 /think-library/admin.php/Bookmanage/bookcheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.197201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.197454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002635s ]
+
+[ 2016-04-09T23:52:05+08:00 ] ::1 /think-library/admin.php/Bookmanage/bookcheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2016-04-09T23:52:14+08:00 ] ::1 /think-library/admin.php/Bookmanage/faq.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+ERR: 非法操作:faq
+
+[ 2016-04-09T23:52:46+08:00 ] ::1 /think-library/admin.php/Bookmanage/bookcheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002079s ]
+
+[ 2016-04-09T23:54:16+08:00 ] ::1 /think-library/admin.php/Bookmanage/500.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+ERR: 非法操作:500
+
+[ 2016-04-09T23:54:50+08:00 ] ::1 /think-library/admin.php/Bookmanage/bookcheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2016-04-09T23:55:13+08:00 ] ::1 /think-library/admin.php/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000766s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013381s ]
+

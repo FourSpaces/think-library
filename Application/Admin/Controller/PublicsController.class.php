@@ -1,6 +1,10 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+
+/**
+ * 用户服务控制器
+ */
 class PublicsController extends Controller{
 	/**
      * 后台用户登录

@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 
 /**
- * 用户管理模块
+ * 用户管理模块控制器
  */
 class UsermanageController extends AdminController{
 

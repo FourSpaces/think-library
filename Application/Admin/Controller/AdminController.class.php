@@ -2,6 +2,9 @@
 namespace Admin\Controller;
 use Think\Controller;
 
+/**
+ * 后台控制器
+ */
 class AdminController extends Controller {
 
 	protected function _initialize(){

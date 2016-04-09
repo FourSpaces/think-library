@@ -3,9 +3,9 @@ namespace Admin\Controller;
 
 
 /**
- * 主页控制器
+ * 文章控制器
  */
-class IndexController extends AdminController {
+class ArticleController extends AdminController {
 
 	protected function _initialize(){
 		parent::_initialize(); //调用父类的初始化函数
@@ -18,5 +18,28 @@ class IndexController extends AdminController {
     	//导航标签
     	$this->assign('pageTab', 'pageSY');
     	$this->display();
+    }
+
+    /**
+     * [ArticleType 文章类型]
+     */
+    public function ArticleType(){
+        if(IS_POST){
+
+        }else{
+
+            $this->assign('pageTab', 'pageWZFL');
+            $this->display();
+        }
+    }
+
+
+    public function ArticleList(){
+        if(IS_POST){
+
+        }else{
+            $this->assign('pageTab', 'pageWZLB');
+            $this->display();
+        }
     }
 }

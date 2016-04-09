@@ -137,131 +137,106 @@
 	<!-- 内容 -->
 	<div class="content">
     
-  <div class="header">
-      <h1 class="page-title">图书类型</h1>
-  </div>
-
-  <ul class="breadcrumb">
-    <li><a href="index.html">首页</a> <span class="divider">/</span></li>
-    <li class="active">类型列表</li>
-  </ul>
-
 	
-<div class="container-fluid">
-    <div class="row-fluid">
-            
+	
+	<div class="header"> 
+            <h1 class="page-title">Edit User</h1>
+        </div>
+        
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li><a href="users.html">Users</a> <span class="divider">/</span></li>
+            <li class="active">User</li>
+        </ul>
 
-<div class="btn-toolbar">
-    <button class="btn btn-primary"><i class="icon-plus"></i>添加类型</button>
-    <!--
-    <button class="btn">Import</button>
-    <button class="btn">Export</button>
-  -->
-  <div class="btn-group">
-  </div>
-</div>
-<div class="well">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>图书类型</th>
-          <th>排序</th>
-          <th>创建时间</th>
-          <th style="width: 26px;"></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Tompson</td>
-          <td>the_mark7</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Ashley</td>
-          <td>Jacobs</td>
-          <td>ash11927</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Audrey</td>
-          <td>Ann</td>
-          <td>audann84</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>John</td>
-          <td>Robinson</td>
-          <td>jr5527</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Aaron</td>
-          <td>Butler</td>
-          <td>aaron_butler</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Chris</td>
-          <td>Albert</td>
-          <td>cab79</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-</div>
-<div class="pagination">
-    <ul>
-        <li><a href="#">Prev</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">Next</a></li>
-    </ul>
-</div>
+        <div class="container-fluid">
+            <div class="row-fluid"><br/>
+            <!--    
+                <div class="btn-toolbar">
+                    <button class="btn btn-primary"><i class="icon-save"></i> Save</button>
+                    <a href="#myModal" data-toggle="modal" class="btn">Delete</a>
+                  <div class="btn-group">
+                  </div>
+                </div>
+            -->
+		<div class="well">
+		    <ul class="nav nav-tabs">
+		      <li class="active"><a href="#home" data-toggle="tab">基本配置</a></li>
+		      <li><a href="#profile" data-toggle="tab">概况配置</a></li>
+		    </ul>
+		    <div id="myTabContent" class="tab-content">
+		      <div class="tab-pane active in" id="home">
+		          <form id="tab">
+		              <label>网站标题：</label>
+		              	<input type="text" value="jsmith" class="input-xlarge">
+		              
+		              <label>网站简介</label>
+		             	 <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
+		              
+		              <label>网站关键字：</label>
+		              	<input type="text" value="Smith" class="input-xlarge">
+
+		              <label>网站备案号：</label>
+		              	<input type="text" value="John" class="input-xlarge">
+		              
+		              
+		              <label>联系邮箱：</label>
+		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
+		              
+		              <label>开始时间：</label>
+		              	 <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
+
+					  <label>地址：</label>
+		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
+					 <label>邮政编码：</label>
+		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
+		             <label>微信公众号：</label>
+		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">	
+		             <label>新浪微博：</label>
+		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
+		              <div class="btn-toolbar">
+                    	 <button class="btn btn-primary"><i class="icon-save"></i> Save</button>
+                    	 <a href="#myModal" data-toggle="modal" class="btn">Delete</a>
+		                  <div class="btn-group">
+		                  </div>
+                	  </div>
+		          </form>
+		      </div>
+		      <div class="tab-pane fade" id="profile">
+		          <form id="tab2">
+		              <label>本馆介绍</label>
+		              <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
+
+		              <label>馆舍风貌</label>
+		              <input type="password" class="input-xlarge">
+		              <div>
+		                  <button class="btn btn-primary">Update</button>
+		              </div>
+		          </form>
+		      </div>
+		    </div>
+
+		</div>
 
 <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">Delete Confirmation</h3>
-    </div>
-    <div class="modal-body">
-        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
-    </div>
-    <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
-    </div>
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Delete Confirmation</h3>
+  </div>
+  <div class="modal-body">
+    
+    <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+  </div>
 </div>
-            
-    </div>
-</div>
+
+                    
+            </div>
+        </div>
+
 
     <footer>
         <hr>

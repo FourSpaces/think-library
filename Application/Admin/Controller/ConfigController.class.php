@@ -1,6 +1,9 @@
 <?php
 namespace Admin\Controller;
 
+/**
+ * 配置
+ */
 class ConfigController extends AdminController{
 
 	protected function _initialize(){

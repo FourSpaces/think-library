@@ -110,8 +110,8 @@
         <ul id="user-menu" class=<?php if(($menuTab) == "user-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageDZGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/ReadersList');?>">读者管理</a></li>
             <li class=<?php if(($pageTab) == "pageGLYGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/AdministratorList');?>">管理员管理</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="500.html">500 page</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="503.html">503 page</a></li>
+            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="500.html">500 page</a></li>
+            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="503.html">503 page</a></li>
         </ul>
 
         <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<span class="label label-info">+3</span></a>
@@ -119,7 +119,7 @@
             <li class=<?php if(($pageTab) == "pageTSLX"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookstyle');?>">图书类型</a></li>
             <li class=<?php if(($pageTab) == "pageCBS"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/presslist');?>">出版社列表</a></li>
             <li class=<?php if(($pageTab) == "pageTSLB"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/booklist');?>">图书列表</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "pageJHSH"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookcheck');?>">借还审核</a></li>
+            <li class=<?php if(($pageTab) == "pageJHSH"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookcheck');?>">借还审核</a></li>
         </ul>
 
         <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理</a>
@@ -129,7 +129,7 @@
         </ul>
 
         <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>Help</a>
-        <a href="faq.html" class="nav-header" style="display:none;" ><i class="icon-comment"></i>Faq</a>
+        <a href="faq.html" class="nav-header" ><i class="icon-comment"></i>Faq</a>
     </div>
     <!-- 侧边栏导航 end  -->
 	<!-- /侧边栏导航 -->
@@ -138,12 +138,12 @@
 	<div class="content">
     
   <div class="header">
-      <h1 class="page-title">图书类型</h1>
+      <h1 class="page-title">图书管理</h1>
   </div>
 
   <ul class="breadcrumb">
     <li><a href="index.html">首页</a> <span class="divider">/</span></li>
-    <li class="active">类型列表</li>
+    <li class="active">图书列表</li>
   </ul>
 
 	
@@ -152,7 +152,7 @@
             
 
 <div class="btn-toolbar">
-    <button class="btn btn-primary"><i class="icon-plus"></i>添加类型</button>
+   <a href="<?php echo U('Admin/Bookmanage/addbook');?>" class="btn btn-primary"><i class="icon-plus"></i>添加图书</a>
     <!--
     <button class="btn">Import</button>
     <button class="btn">Export</button>
@@ -165,100 +165,62 @@
       <thead>
         <tr>
           <th>#</th>
-          <th>图书类型</th>
-          <th>排序</th>
-          <th>创建时间</th>
-          <th style="width: 26px;"></th>
+          <th>图书IBIN码</th>
+          <th>图书名字</th>
+          <th>图书分类</th>
+          <th>出版社</th>
+          <!--
+          <th>封面</th>
+        -->
+          <th>更新时间</th>
+          <th>库存</th>
+          <th style="width: 80px;">操作</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Tompson</td>
-          <td>the_mark7</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Ashley</td>
-          <td>Jacobs</td>
-          <td>ash11927</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Audrey</td>
-          <td>Ann</td>
-          <td>audann84</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>John</td>
-          <td>Robinson</td>
-          <td>jr5527</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Aaron</td>
-          <td>Butler</td>
-          <td>aaron_butler</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Chris</td>
-          <td>Albert</td>
-          <td>cab79</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
+          <?php if(!empty($list)): if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$order): $mod = ($k % 2 );++$k;?><tr>
+                <td><?php echo ($k); ?></td>
+                <td><?php echo ($order["isbn"]); ?></td>
+                <td><?php echo ($order["bookname"]); ?></td>
+                <td>
+                  <?php if(is_array($stylelist)): $i = 0; $__LIST__ = $stylelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["id"]) == $order["typeid"]): echo ($vo["typename"]); endif; endforeach; endif; else: echo "" ;endif; ?>
+                </td> 
+                <td>
+                  <?php if(is_array($presslist)): $i = 0; $__LIST__ = $presslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["id"]) == $order["publisherid"]): echo ($vo["pressname"]); endif; endforeach; endif; else: echo "" ;endif; ?>
+                </td>            
+                <td><?php echo (date('Y-m-d H:i',$order["updatetime"])); ?></td>
+                <td><?php echo ($order["sumnum"]); ?></td>
+                <td>
+                  <a href="<?php echo U('Admin/Bookmanage/editbook',array('id'=>$order['id']));?>" title="编辑"><i class="icon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
+                  <!-- href="#myModal"  -->
+                  <a role="button" title="删除"  ><i class="icon-remove" onclick="deletestyle(<?php echo ($order["id"]); ?>)"></i></a>
+                </td>
+              </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        
+            <?php else: ?>
+            <td colspan="6" class="text-center"> aOh! 暂时还没有内容! </td><?php endif; ?>
       </tbody>
     </table>
 </div>
-<div class="pagination">
-    <ul>
-        <li><a href="#">Prev</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">Next</a></li>
-    </ul>
-</div>
+    <div class="pagination">
+        <?php echo ($_page); ?>
+    </div>
 
-<div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">Delete Confirmation</h3>
+
+    <!-- 删除弹窗 -->
+    <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">删除确认</h3>
+        </div>
+        <div class="modal-body">
+            <p class="error-text"><i class="icon-warning-sign modal-icon"></i>你确定要删除</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+            <button id="modal_delete" class="btn btn-danger" data-dismiss="modal">删除</button>
+        </div>
     </div>
-    <div class="modal-body">
-        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
-    </div>
-    <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
-    </div>
-</div>
             
     </div>
 </div>
@@ -281,6 +243,42 @@
         $('.demo-cancel-click').click(function(){return false;});
     });
 </script>
+
+  <script>
+    function deletestyle(value){
+          //显示模态框
+          $('#myModal').modal('show');
+          $("#modal_delete").on("click",function(){
+            //在点击按钮后延迟动作
+            setTimeout(function(){
+              $.post("<?php echo U('Admin/Bookmanage/deletebook');?>",{ id:value,},
+                function(data,status){
+                  
+                if(data.status=="1"){
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info+'正在跳转，请稍后!');
+                  setTimeout(function(){$.Hidemsg();
+                      location.href = data.url;},1800);
+                }
+                else{
+                    //$.Hidemsg()公用方法关闭信息提示框;
+                    //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info);
+                  setTimeout(function(){$.Hidemsg(); },1800);
+                }
+
+                });
+            },200);
+            });
+        }
+
+    //模态窗口关闭后 移除 事件
+    $('#myModal').on('hidden.bs.modal', function () {
+      // 执行一些动作...
+      $("#modal_delete").off("click");
+    })
+  </script>
 
 	<!-- /内容 -->
 </body>

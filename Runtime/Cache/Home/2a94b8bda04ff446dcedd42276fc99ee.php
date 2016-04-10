@@ -106,7 +106,7 @@
 	<div class="page" id="page-service">
 		<!-- 页面标题 -->
 		<div class="title-wrapper">
-			<h1 class="title"><a href="service.html"  target="_blank">服务</a></h1>
+			<h1 class="title"><a href="<?php echo U('server/index');?>"  target="_blank">服务</a></h1>
 		</div>
 		<!-- 内容容器 -->
 		<div class="content-wrapper">

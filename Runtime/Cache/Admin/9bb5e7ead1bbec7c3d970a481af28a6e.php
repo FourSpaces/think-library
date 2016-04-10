@@ -124,8 +124,10 @@
 
         <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理</a>
         <ul id="rich-menu" class=<?php if(($menuTab) == "rich-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
-            <li class=<?php if(($pageTab) == "pageWZFL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="privacy-policy.html">文章分类</a></li>
-            <li class=<?php if(($pageTab) == "pageWZLB"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="terms-and-conditions.html">文章列表</a></li>
+            <li class=<?php if(($pageTab) == "pageWZFL"): ?>"active"<?php else: ?>""<?php endif; ?>>
+                <a href="<?php echo U('Article/ArticleType');?>">文章分类</a></li>
+            <li class=<?php if(($pageTab) == "pageWZLB"): ?>"active"<?php else: ?>""<?php endif; ?>>
+                <a href="<?php echo U('Article/ArticleList');?>">文章列表</a></li>
         </ul>
 
         <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>Help</a>

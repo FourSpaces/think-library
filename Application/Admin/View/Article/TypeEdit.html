@@ -1,0 +1,83 @@
+<extend name="Base/common"/>
+
+<!-- header start -->
+<block name="header">
+  <div class="header">
+      <h1 class="page-title">文件类型</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="">首页</a> <span class="divider">/</span></li>
+    <li class="active"><eq name="titleTab" value="1">添加<else/>编辑</eq>分类</li>
+  </ul>
+</block>
+<!-- header  -->
+
+
+<block name="content">
+<div class="container-fluid">
+  <div class="row-fluid"><br/>
+  <div class="well">
+     <form class="demoform" action="{:U('')}">
+      <input name='id' type="hidden" value="{$info.id|default=''}">
+      <input name='parentid' type="hidden" value="{$info.parentid|default=''}">
+      <ul style="list-style-type: none;">
+        <li>
+          <label>分类名称：</label>
+          <input id="input_typename" name="name" type="text" value="{$info.name|default=''}" class="input-xlarge" datatype="s2-12" errormsg="分类名称至少2个字符,最多12个字符！" sucmsg="&nbsp;">
+          <span class="Validform_checktip"></span>
+        </li>
+        <li>
+          <div class="btn-toolbar">
+            <button type="submit" class="btn btn-primary"><i class="icon-save"></i> 提交</button>
+            <a href="#myModal" data-toggle="modal" class="btn">返回</a>
+            <div class="btn-group"></div>
+          </div>
+        </li>
+      </ul>
+
+    </form>
+  </div>
+            
+  </div>
+</div>
+</block>
+
+<block name="script">
+  <script>
+  $(function() {
+    //初始化表单插件
+     var validform = $(".demoform").Validform({
+          tiptype:function(msg,o,cssctl){
+          //msg：提示信息;
+          //o:{obj:*,type:*,curform:*}, obj指向的是当前验证的表单元素（或表单对象），type指示提示的状态，值为1、2、3、4， 1：正在检测/提交数据，2：通过验证，3：验证失败，4：提示ignore状态, curform为当前form对象;
+          //cssctl:内置的提示信息样式控制函数，该函数需传入两个参数：显示提示信息的对象 和 当前提示的状态（既形参o中的type）;
+              if(!o.obj.is("form")){
+              //验证表单元素时o.obj为该表单元素，全部验证通过提交表单时o.obj为该表单对象;
+                  var objtip=o.obj.siblings(".Validform_checktip");
+                  cssctl(objtip,o.type);
+                  objtip.text(msg);
+              }
+          },
+          ajaxPost:true,
+          callback:function(data){
+              
+              if(data.status=="1"){
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info+'正在跳转，请稍后!');
+                  setTimeout(function(){$.Hidemsg();
+                      location.href = data.url;},2000);
+              }
+              else{
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                $.Showmsg(data.info);
+                setTimeout(function(){$.Hidemsg(); },2000);
+              }
+          }
+
+      });
+  });
+  </script>
+</block>

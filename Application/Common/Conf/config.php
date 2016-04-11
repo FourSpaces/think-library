@@ -11,4 +11,15 @@ return array(
 
     'STUDENT_TERM' => 3600,
     'TEACHER_TERM' => 7200,
+
+
+
+    /*基本信息配置*/
+    "WebTitle" => '大学图书馆',
+    "SchoolUrl" =>'',   //学校主页
+    'Address' =>'天津职业技术师范大学-图书馆',       //地址
+    'Telephone' =>'022-28116964',       //电话
+    'ZipCode' =>'300222',       //邮编
+    'ZipCode' =>'300222',       //电话
+
 );

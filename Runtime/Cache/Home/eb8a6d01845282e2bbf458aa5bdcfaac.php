@@ -3,7 +3,7 @@
 <head>
 	  <!-- 头部 -->
     <meta charset="UTF-8">
-    <title>服务-大连大学图书馆</title>
+    <title><?php echo C('WebTitle');?></title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -220,26 +220,13 @@
             <!-- 一级导航菜单 -->
             <ul class="menu">
 
-                <li class=<?php if(($pagetab) == "server"): ?>"active"<?php else: ?>""<?php endif; ?>>
+                <li class=<?php if(($pagetab) == "Server"): ?>"active"<?php else: ?>""<?php endif; ?>>
                     <a href="<?php echo U('/Server');?>" class="service">服务</a>
                     <ul class="sub-menu">
                         <li><a href="javascript:void(0)">入馆指南</a></li>
                         <li><a href="javascript:void(0)">投稿指南</a></li>
                         <li><a href="javascript:void(0)">信息咨询</a></li>
-                        <!--
-                        <li><a href="javascript:void(0)">自习室预约</a></li>
-                        -->
                         <li><a href="javascript:void(0)">通知</a></li>
-                        
-                        <!--
-                        <li><a href="javascript:void(0)">学位论文提交</a></li>
-                        <li><a href="javascript:void(0)">讲座培训</a></li>
-                        <li><a href="javascript:void(0)">学科服务</a></li>
-                        <li><a href="javascript:void(0)">文献传递</a></li>
-                        <li><a href="javascript:void(0)">VPN服务</a></li>
-                        <li><a href="javascript:void(0)">文件下载</a></li>
-                        <li><a href="javascript:void(0)">阅读推荐</a></li>
-                        -->
                     </ul>
                 </li>
                 <li class=<?php if(($pagetab) == "Introduce"): ?>"active"<?php else: ?>""<?php endif; ?>>
@@ -255,13 +242,6 @@
                         -->
                     </ul>
                 </li>
-                <li class=<?php if(($pagetab) == "SpecialLibrary"): ?>"active"<?php else: ?>""<?php endif; ?>>
-                    <a href="<?php echo U('/SpecialLibrary');?>" class="charmlibrary">魅力图书馆</a>
-                    <ul class="sub-menu">
-                        <li><a href="javascript:void(0)">按时间分类</a></li>
-                        <li><a href="javascript:void(0)">按期刊分类</a></li>
-                    </ul>
-                </li>
                 <li class=<?php if(($pagetab) == "PrivateLibrary"): ?>"active"<?php else: ?>""<?php endif; ?>>
                     <a href="<?php echo U('/PrivateLibrary');?>" class="resource">我的图书馆</a>
                     <!-- 二级导航菜单 -->
@@ -271,20 +251,6 @@
                         <li><a href="javascript:void(0)">借书/还书</a></li>
                         <li><a href="javascript:void(0)">借阅记录</a></li>
                         
-                    </ul>
-                </li>
-
-                <li style="display:none;">
-                    <a href="javascript:void(0)" class="thinker">思想者</a>
-                    <ul class="sub-menu">
-                        <li><a href="javascript:void(0)">沁心美文</a></li>
-                        <li><a href="javascript:void(0)">名著欣赏</a></li>
-                        <li><a href="javascript:void(0)">大爱无疆</a></li>
-                        <li><a href="javascript:void(0)">心灵驿站</a></li>
-                        <li><a href="javascript:void(0)">阅读指南</a></li>
-                        <li><a href="javascript:void(0)">科学沙龙</a></li>
-                        <li><a href="javascript:void(0)">文化雨露</a></li>
-                        <li><a href="javascript:void(0)">就业指导</a></li>
                     </ul>
                 </li>
             </ul>
@@ -309,58 +275,28 @@
 	 <!-- 左侧侧边栏 -->
         <dl class="content-left">
             <dt>服务</dt>
-            <dd><a href="javascript:void(0)">入馆指南</a></dd>
-            <dd><a href="javascript:void(0)">学位论文提交</a></dd>
-            <dd><a href="javascript:void(0)">讲座培训</a></dd>
-            <dd><a href="javascript:void(0)">投稿指南</a></dd>
-            <dd><a href="javascript:void(0)">学科服务</a></dd>
-            <dd><a href="javascript:void(0)">文献传递</a></dd>
-            <dd><a href="javascript:void(0)">VPN服务</a></dd>
-            <dd><a href="javascript:void(0)">信息咨询</a></dd>
-            <dd><a href="javascript:void(0)">研究室预约</a></dd>
-            <dd><a href="javascript:void(0)">文件下载</a></dd>
-            <dd><a href="javascript:void(0)">阅读推荐</a></dd>
-            <dd><a href="javascript:void(0)">失物招领</a></dd>
+            <dd><a href="<?php echo U('Server/BookRetrieval');?>" >书籍搜索</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>13));?>" >学位论文提交</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>14));?>">学科服务</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>17));?>">VPN服务</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>15));?>">信息咨询</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>12));?>">自习室预约</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>16));?>">阅读推荐</a></dd>
+            <dd><a href="<?php echo U('Server/ShowArticle',array('id'=>11));?>">失物招领</a></dd>
         </dl>
         <!-- 右侧内容区 -->
         <div class="content-right">         
             <h2><a href="javascript:void(0)">入馆指南</a><span class="fold">折叠</span></h2>
             <ul class="content">
-                <li><a href="javascript:void(0)">馆藏布局</a><span>03-18</span></li>
-                <li><a href="javascript:void(0)">借阅规则</a><span>09-03</span></li>
-                <li><a href="javascript:void(0)">馆藏布局</a><span>09-03</span></li>
-                <li><a href="javascript:void(0)">开放时间</a><span>09-03</span></li>
+                <?php if(is_array($rgzn)): $i = 0; $__LIST__ = $rgzn;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo U('Server/ShowArticle',array('id'=>$vo['id']));?>"><?php echo ($vo["title"]); ?></a><span><?php echo (date('m-d',$vo["createtime"])); ?></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
             </ul>
             <h2><a href="javascript:void(0)">讲座培训</a><span class="fold">折叠</span></h2>
             <ul class="content">
-                <li><a href="javascript:void(0)">大连大学Springer培训讲座</a><span>09-18</span></li>
-                <li><a href="javascript:void(0)">SCI数据库讲座</a><span>09-13</span></li>
-                <li><a href="javascript:void(0)">高校IEL数据库培训-2015下半年</a><span>09-03</span></li>
-                <li><a href="javascript:void(0)">图书馆讲座通知</a><span>10-03</span></li>
-                <li><a href="javascript:void(0)">2015新生（本科生）“怎样利用图书馆”培训讲座</a><span>09-11</span></li>
+                <?php if(is_array($jzpx)): $i = 0; $__LIST__ = $jzpx;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo U('Server/ShowArticle',array('id'=>$vo['id']));?>"><?php echo ($vo["title"]); ?></a><span><?php echo (date('m-d',$vo["createtime"])); ?></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
             </ul>
             <h2><a href="javascript:void(0)">投稿指南</a><span class="fold">折叠</span></h2>
             <ul class="content">
-                <li><a href="javascript:void(0)">CSSCI来源集刊（2008－2011年）</a><span>03-06</span></li>
-                <li><a href="javascript:void(0)">CSSCI（2008-2009）来源期刊目录(528种)</a><span>09-23</span></li>
-                <li><a href="javascript:void(0)">CSSCI来源期刊(2006-2007)（共493种）</a><span>11-03</span></li>
-                <li><a href="javascript:void(0)">中文社会科学引文索引（2004-2005）来源期刊目录</a><span>08-23</span></li>
-                <li><a href="javascript:void(0)">中文社会科学引文索引（2003）来源期刊目录（共418种）</a><span>07-19</span></li>
-                <li><a href="javascript:void(0)">《中文社会科学引文索引》(CSSCI) 扩展版来源期刊(2010-2011)</a><span>06-10</span></li>
-            </ul>
-            <h2><a href="javascript:void(0)">文件下载</a><span class="fold">折叠</span></h2>
-            <ul class="content">
-                <li><a href="javascript:void(0)">大连大学图书馆电子培训室使用管理制度</a><span>03-18</span></li>
-                <li><a href="javascript:void(0)">关于图书馆LED、发布机、网站等电子设备使用须知</a><span>09-03</span></li>
-                <li><a href="javascript:void(0)">联创自助打印复印客户端驱动下载</a><span>09-22</span></li>
-                <li><a href="javascript:void(0)">大连大学图书馆报告厅使用管理制度</a><span>10-03</span></li>
-                <li><a href="javascript:void(0)">资料室管理规则</a><span>07-03</span></li>
-                <li><a href="javascript:void(0)">《教学、行政及科研部门校有图书等文献资料购置管理规定》</a><span>06-15</span></li>
-            </ul>
-            <h2><a href="javascript:void(0)">阅读推荐</a><span class="fold">折叠</span></h2>
-            <ul class="content">
-                <li><a href="javascript:void(0)">红高粱</a><span>07-18</span></li>
-                <li><a href="javascript:void(0)">丰乳肥臀</a><span>09-13</span></li>
+                <?php if(is_array($tgzn)): $i = 0; $__LIST__ = $tgzn;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="<?php echo U('Server/ShowArticle',array('id'=>$vo['id']));?>"><?php echo ($vo["title"]); ?></a><span><?php echo (date('m-d',$vo["createtime"])); ?></span></li><?php endforeach; endif; else: echo "" ;endif; ?>
             </ul>
         </div>
 
@@ -372,16 +308,13 @@
                 <h4>开馆时间：</h4>
                 <p>图书馆主楼</p>
                 <p>周一至周五8:10-21:40 周六、日8:50-21:40</p>
-                <p>辅楼 6:10-21:40</p>
             </li>
             <li>
                 <div class="msgbox">
                     <h4>联系方式：</h4>
-                    <p><span>地 址：</span>大连经济技术开发区学府大街10号</p>
-                    <p><span>电 话：</span>0411-87402853</p>
-                    <p><span>传 真：</span>0411-87402853</p>
-                    <p><span>交通方式：</span>火车站-大连大学</p>
-                    <p><span>邮政编码：</span>116622</p>
+                    <p><span>地 址：</span><?php echo C('Address');?></p>
+                    <p><span>电 话：</span><?php echo C('Telephone');?></p>
+                    <p><span>邮政编码：</span><?php echo C('ZipCode');?></p>
                 </div>
             </li>
             <li>

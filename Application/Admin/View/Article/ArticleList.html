@@ -3,12 +3,12 @@
 <!-- header start -->
 <block name="header">
   <div class="header">
-      <h1 class="page-title">图书类型</h1>
+      <h1 class="page-title">文章列表</h1>
   </div>
 
   <ul class="breadcrumb">
     <li><a href="">首页</a> <span class="divider">/</span></li>
-    <li class="active">类型列表</li>
+    <li class="active">文章列表</li>
   </ul>
 </block>
 <!-- header  -->
@@ -19,7 +19,7 @@
   <div class="row-fluid">            
 
     <div class="btn-toolbar">
-        <a href="{:U('Admin/Bookmanage/addstyle')}" class="btn btn-primary"><i class="icon-plus"></i>添加类型</a>
+        <a href="{:U('Admin/Article/AddArticle')}" class="btn btn-primary"><i class="icon-plus"></i>添加文章</a>
         <!--
         <button class="btn">Import</button>
         <button class="btn">Export</button>
@@ -32,8 +32,9 @@
           <thead>
             <tr>
               <th>#</th>
-              <th>图书类型</th>
-              <th>排序</th>
+              <th>文章标题</th>
+              <th>文章简介</th>
+              <th>文章分类</th>
               <th>创建时间</th>
               <th style="width: 100px;">操作</th>
             </tr>
@@ -43,11 +44,12 @@
             <volist name="list" id="order">
               <tr>
                 <td>{$i}</td>
-                <td>{$order.typename}</td>
-                <td>{$order.sort}</td>            
-                <td>{$order.updatetime|date='Y-m-d H:i',###}</td>
+                <td>{$order.title}</td>
+                <td>{$order.summary}</td>
+                <td>{$sort[$order['type']]}</td>               
+                <td>{$order.createtime|date='Y-m-d H:i',###}</td>
                 <td>
-                  <a href="{:U('Admin/Bookmanage/editstyle',array('id'=>$order['id']))}" title="编辑"><i class="icon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
+                  <a href="{:U('Admin/Article/EditArticle',array('id'=>$order['id']))}" title="编辑"><i class="icon-pencil"></i></a>&nbsp;&nbsp;&nbsp;
                   <!-- href="#myModal"  -->
                   <a role="button" title="删除"  ><i class="icon-remove" onclick="deletestyle({$order.id})"></i></a>
                 </td>
@@ -72,7 +74,7 @@
             <h3 id="myModalLabel">删除确认</h3>
         </div>
         <div class="modal-body">
-            <p class="error-text"><i class="icon-warning-sign modal-icon"></i>你确定要删除此分类</p>
+            <p class="error-text"><i class="icon-warning-sign modal-icon"></i>你确定要删除此文章</p>
         </div>
         <div class="modal-footer">
             <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
@@ -93,7 +95,7 @@
           $("#modal_delete").on("click",function(){
             //在点击按钮后延迟动作
             setTimeout(function(){
-              $.post("{:U('Admin/Bookmanage/deletestyle')}",{ id:value,},
+              $.post("{:U('Admin/Article/DeletArticle')}",{ id:value,},
                 function(data,status){
                   
                 if(data.status=="1"){

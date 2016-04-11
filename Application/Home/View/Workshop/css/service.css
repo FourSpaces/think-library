@@ -482,3 +482,32 @@ li {
     line-height: 30px;
     cursor: pointer;
 }
+
+.articleCon .title {
+    font-size: 30px;
+    line-height: 160%;
+    color: #5b6eac;
+    text-align: center;
+    font-weight: 200;
+    padding: 15px 0;
+}
+
+.articleCon .property {
+    line-height: 34px;
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: center;
+    color: #666;
+    border: 1px dotted #ccc;
+    background: #f6f6f6;
+}
+
+.articleCon .property span {
+    padding: 0 5px;
+}
+
+#mainContent {
+    width: 920px;
+    padding: 30px 40px;
+    overflow: hidden;
+}

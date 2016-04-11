@@ -58,28 +58,28 @@ window.onload = function() {
 	// 建立连接框
 	var connect = itemBox.getElementsByTagName('div')[0];	
 
-	/*对应日期出现新闻提示*/
-	// 创建xhr对象
-	var	xhr = new XMLHttpRequest();
-	// 当xhr对象的状态变化执行处理
-	xhr.onreadystatechange = function() {
-		// 如果请求响应结束
-		if (xhr.readyState == 4 && xhr.status == 200) {
+	// /*对应日期出现新闻提示*/
+	// // 创建xhr对象
+	// var	xhr = new XMLHttpRequest();
+	// // 当xhr对象的状态变化执行处理
+	// xhr.onreadystatechange = function() {
+	// 	// 如果请求响应结束
+	// 	if (xhr.readyState == 4 && xhr.status == 200) {
 		
-			// 把响应的字符串转化为json对象
-			var jsonObj = eval('(' + xhr.responseText + ')');
-			// 将返回数据传给数据处理函数
-			dataHandle(jsonObj.news);
+	// 		// 把响应的字符串转化为json对象
+	// 		var jsonObj = eval('(' + xhr.responseText + ')');
+	// 		// 将返回数据传给数据处理函数
+	// 		dataHandle(jsonObj.news);
 			
-		}
-	}
-	// 设置请求的方式和url
-	xhr.open('POST','virtualserve/news.json');
-	// 禁止缓存
-	xhr.setRequestHeader("If-Modified-Since","0");
-	xhr.setRequestHeader("Cache-Control","no-cache");
-	// 发出请求
-	xhr.send();
+	// 	}
+	// }
+	// // 设置请求的方式和url
+	// xhr.open('POST','virtualserve/news.json');
+	// // 禁止缓存
+	// xhr.setRequestHeader("If-Modified-Since","0");
+	// xhr.setRequestHeader("Cache-Control","no-cache");
+	// // 发出请求
+	// xhr.send();
 
 	/**
 	 * 工具函数封装
@@ -269,36 +269,39 @@ window.onload = function() {
 	}
 
 	/*搜索框获得焦点事件*/
-	keyWord.onfocus = function() {
-		// 如果没有搜索记录，停止向下执行
-		if (localStorage.endIndex == '-1') return null;
+	// keyWord.onfocus = function() {
 
-		// 删除以前的提示
-		while (searchTips.childElementCount) {
-			searchTips.removeChild(searchTips.lastElementChild);
-		}
+	// 	alert('123');
+	// 	// 如果没有搜索记录，停止向下执行
+	// 	if (localStorage.endIndex == '-1') return null;
 
-		// 加载前三条搜索记录
-		for (var i = startIndex; i <= endIndex; i ++) {
-			packElement(localStorage.getItem(i),'li','tip-item',searchTips);
-		}
+	// 	// 删除以前的提示
+	// 	while (searchTips.childElementCount) {
+	// 		searchTips.removeChild(searchTips.lastElementChild);
+	// 	}
 
-		// 显示提示列表
-		searchTips.style.display = 'block';
-		clearHistory.style.display = 'block';
+	// 	// 加载前三条搜索记录
+	// 	for (var i = startIndex; i <= endIndex; i ++) {
+	// 		packElement(localStorage.getItem(i),'li','tip-item',searchTips);
+	// 	}
 
-		// 绑定提示信息的单击和鼠标滑过事件
-		bindTipItemEvent();
+	// 	// 显示提示列表
+	// 	searchTips.style.display = 'block';
+	// 	clearHistory.style.display = 'block';
 
-		// 重置高亮索引为-1
-		keyIndex = -1;
-		// flag设为false，页面不能向下滚动
-		flag = false;
-		timerID = setInterval(function(){
-			if (!advanceTip())
-				advanceTip();
-		},200);
-	}
+	// 	// 绑定提示信息的单击和鼠标滑过事件
+	// 	bindTipItemEvent();
+
+	// 	// 重置高亮索引为-1
+	// 	keyIndex = -1;
+	// 	// flag设为false，页面不能向下滚动
+	// 	flag = false;
+	// 	timerID = setInterval(function(){
+	// 		if (!advanceTip())
+	// 			advanceTip();
+	// 	},200);
+		
+	// }
 
 	/*与搜索内容相关的条目提前*/
 	function advanceTip() {
@@ -520,7 +523,7 @@ window.onload = function() {
 			// 参数为真向下滚动，反之向上滚动
 			if (param) {
 				// 最后一页时停止动画
-				if (index == -4) return false;
+				if (index == -3) return false;
 				// 索引减一
 				index --;
 			} else if (param === false) {

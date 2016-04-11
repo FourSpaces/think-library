@@ -27,14 +27,14 @@ class ArticleController extends AdminController {
         if(IS_POST){
 
         }else{
-            //获得文章初级类型
+            //获得顶级分类
             $data = array();
             $data['parentid'] = 0;
             $data['type'] = 0;
 
             $list = D('Articletype')->getlists($data);
 
-            //添加二级元素
+            //获得二级分类
             for($i = 0; $i<count($list);$i++){
                 $data['parentid'] = $list[$i]['id'];
                 $data['type'] = 1;
@@ -140,8 +140,124 @@ class ArticleController extends AdminController {
         if(IS_POST){
 
         }else{
+            $data['type'] = 1;
+            $article = D('Articletype');
+            $sort = $article->where($data)->getField('id,name');
+            $this->assign('sort', $sort);
+
+            $map = array();
+            $map  = array('status' => 1);
+            $list = $this->lists('Article', $map,'createtime asc,id asc');
+            $this->assign('list', $list);
             $this->assign('pageTab', 'pageWZLB');
             $this->display();
+        }
+    }
+
+    /**
+     * [AddArticle description]
+     */
+    public function AddArticle(){
+        if(IS_POST){
+            //如果是POST请求    
+            //$id = I('post.id','');
+            $data = array();
+            $data['title'] = I('post.title','');
+            $data['summary'] = I('post.summary','');
+            $data['type'] = I('post.type','');
+            $data['content'] = I('post.content','');
+            
+
+            $article = D('Article');
+            $uid  = $article->addData($data);
+            if(0 < $uid){ //添加成功
+                $this->success('添加成功！',U('Admin/Article/ArticleList'),true);
+                //$this->success('添加成功！',U('Admin/Bookmanage/addstyle'),true);
+            } else { //注册失败，显示错误信息
+                $this->error($this->showArticleError($uid),true);
+            }
+        }else{
+            //获得文章分类
+            $data = array();
+            //$data['parentid'] = array('GT' => 0);
+            $data['type'] = 1;
+
+            $sort = D('Articletype')->getlists($data);
+
+            $this->assign('sort',$sort);
+            $this->assign('titleTab','1');
+            $this->assign('pageTab', 'pageWZLB');
+            $this->display('ArticleEdit');
+        }
+    }
+
+    /**
+     * [EditArticle description]
+     */
+    public function EditArticle(){
+          if(IS_POST){
+            //如果是POST请求    
+            $data = array();
+            $data['id'] = I('post.id','');
+            $data['title'] = I('post.title','');
+            $data['summary'] = I('post.summary','');
+            $data['type'] = I('post.type','');
+            $data['content'] = I('post.content','');
+            
+
+            $article = D('Article');
+            $uid  = $article->update($data);
+            if(0 < $uid){ //添加成功
+                $this->success('编辑成功！',U('Admin/Article/ArticleList'),true);
+                //$this->success('添加成功！',U('Admin/Bookmanage/addstyle'),true);
+            } else { //注册失败，显示错误信息
+                $this->error($this->showArticleError($uid),true);
+            }
+        }else{
+
+
+            $id = I('get.id',0);
+            if(!empty($id)){
+                 //获得文章分类
+                $data = array();
+                $data['type'] = 1;
+
+                $sort = D('Articletype')->getlists($data);
+                $this->assign('sort',$sort);
+                
+                $article = D('Article');
+                $info = $article->where("status=1 AND id=$id")->find();
+                if(!empty($info)){
+                    $this->assign('info',$info);
+                    $this->assign('titleTab','2');
+                    $this->assign('pageTab', 'pageWZLB');
+                    $this->display('ArticleEdit');
+                }
+           
+            }
+        }
+    }
+
+    /**
+     * [DeletArticle description]
+     */
+    public function DeletArticle(){
+        if(IS_POST){
+            //如果是POST请求
+            $id = I('post.id',0);
+
+            $data = array('id' => $id);
+            //查询是否有子层
+            $article = D('Article');
+            $uid = $article->where($data)->save(array('status' =>0));
+
+            if(0 < $uid){ //操作成功
+                $this->success('操作成功',U('Admin/Article/ArticleList'),true);
+            } else {     //操作失败，显示错误信息
+                $this->error($this->showArticleError($uid),true);
+            } 
+
+            
         }
     }
 
@@ -160,4 +276,32 @@ class ArticleController extends AdminController {
         return $error;
     }
 
+    /**
+     * 获取文章错误信息
+     * @param  integer $code 错误编码
+     * @return string        错误信息
+     */
+    private function showArticleError($code = 0){
+        switch ($code) {
+            case  0:  $error = '数据未作修改'; break;
+            case -1:  $error = '标题长度不合法'; break;
+            case -2:  $error = '标题不能为空！'; break;
+            case -3:  $error = '简介长度不合法'; break;
+            case -4:  $error = '简介不能为空！'; break;
+            case -5:  $error = '分类不能为空'; break;
+            case -6:  $error = '内容不能为空'; break;
+            default:  $error = '未知错误';
+        }
+        return $error;
+    }
+
+    
+    /**
+     * [ueditor ueditor 文章编辑器插件]
+     * @return [type] [description]
+     */
+    public function ueditor(){
+        $data = new \Org\Util\Ueditor();
+        echo $data->output();
+    }
 }

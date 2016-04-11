@@ -96,25 +96,18 @@
 
     <!-- 侧边栏导航 start  -->
     <div class="sidebar-nav">
-        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>Dashboard</a>
+        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>图书管理系统</a>
         <ul id="dashboard-menu" class=<?php if(($menuTab) == "dashboard-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
-            <li class=<?php if(($pageTab) == "pageSY"): ?>"active"<?php else: ?>""<?php endif; ?> ><a href="<?php echo U('Admin/Index/index');?>">首页</a></li>
-            <li class=<?php if(($pageTab) == "pageWZPZ"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Config/index');?>">网站配置</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="users.html">Sample List</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="media.html">Media</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="calendar.html">Calendar</a></li>
-            
+            <li class=<?php if(($pageTab) == "pageWZPZ"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Config/index');?>">首页</a></li>
         </ul>
 
         <a href="#user-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>用户管理<i class="icon-chevron-up"></i></a>
         <ul id="user-menu" class=<?php if(($menuTab) == "user-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageDZGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/ReadersList');?>">读者管理</a></li>
             <li class=<?php if(($pageTab) == "pageGLYGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/AdministratorList');?>">管理员管理</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="500.html">500 page</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="503.html">503 page</a></li>
         </ul>
 
-        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<span class="label label-info">+3</span></a>
+        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<i class="icon-chevron-up"></i></a>
         <ul id="books-menu" class=<?php if(($menuTab) == "books-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageTSLX"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookstyle');?>">图书类型</a></li>
             <li class=<?php if(($pageTab) == "pageCBS"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/presslist');?>">出版社列表</a></li>
@@ -122,7 +115,7 @@
             <li style="display:none;" class=<?php if(($pageTab) == "pageJHSH"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookcheck');?>">借还审核</a></li>
         </ul>
 
-        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理</a>
+        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理<i class="icon-chevron-up"></i></a>
         <ul id="rich-menu" class=<?php if(($menuTab) == "rich-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageWZFL"): ?>"active"<?php else: ?>""<?php endif; ?>>
                 <a href="<?php echo U('Article/ArticleType');?>">文章分类</a></li>
@@ -130,7 +123,7 @@
                 <a href="<?php echo U('Article/ArticleList');?>">文章列表</a></li>
         </ul>
 
-        <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>Help</a>
+       
         <a href="faq.html" class="nav-header" style="display:none;" ><i class="icon-comment"></i>Faq</a>
     </div>
     <!-- 侧边栏导航 end  -->
@@ -142,13 +135,12 @@
 	
 	
 	<div class="header"> 
-            <h1 class="page-title">Edit User</h1>
+            <h1 class="page-title">首页</h1>
         </div>
         
         <ul class="breadcrumb">
-            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
-            <li><a href="users.html">Users</a> <span class="divider">/</span></li>
-            <li class="active">User</li>
+            <li><a href="">主页</a> <span class="divider">/</span></li>
+            <li class="active">欢迎界面</li>
         </ul>
 
         <div class="container-fluid">
@@ -162,61 +154,7 @@
                 </div>
             -->
 		<div class="well">
-		    <ul class="nav nav-tabs">
-		      <li class="active"><a href="#home" data-toggle="tab">基本配置</a></li>
-		      <li><a href="#profile" data-toggle="tab">概况配置</a></li>
-		    </ul>
-		    <div id="myTabContent" class="tab-content">
-		      <div class="tab-pane active in" id="home">
-		          <form id="tab">
-		              <label>网站标题：</label>
-		              	<input type="text" value="jsmith" class="input-xlarge">
-		              
-		              <label>网站简介</label>
-		             	 <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
-		              
-		              <label>网站关键字：</label>
-		              	<input type="text" value="Smith" class="input-xlarge">
-
-		              <label>网站备案号：</label>
-		              	<input type="text" value="John" class="input-xlarge">
-		              
-		              
-		              <label>联系邮箱：</label>
-		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
-		              
-		              <label>开始时间：</label>
-		              	 <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
-
-					  <label>地址：</label>
-		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
-					 <label>邮政编码：</label>
-		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
-		             <label>微信公众号：</label>
-		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">	
-		             <label>新浪微博：</label>
-		              	<input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
-		              <div class="btn-toolbar">
-                    	 <button class="btn btn-primary"><i class="icon-save"></i> Save</button>
-                    	 <a href="#myModal" data-toggle="modal" class="btn">Delete</a>
-		                  <div class="btn-group">
-		                  </div>
-                	  </div>
-		          </form>
-		      </div>
-		      <div class="tab-pane fade" id="profile">
-		          <form id="tab2">
-		              <label>本馆介绍</label>
-		              <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
-
-		              <label>馆舍风貌</label>
-		              <input type="password" class="input-xlarge">
-		              <div>
-		                  <button class="btn btn-primary">Update</button>
-		              </div>
-		          </form>
-		      </div>
-		    </div>
+        欢迎登录 图书管理系统
 
 		</div>
 
@@ -249,7 +187,7 @@
 </div>
 
 
-<script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/jquery-1.12.2.min.js" type="text/javascript"></script>
+<script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/jquery-2.0.2.js" type="text/javascript"></script>
 <script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/bootstrap/js/bootstrap.js"></script>
 <script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/js/Validform_v5.3.2_min.js" type="text/javascript"></script>
 <script type="text/javascript">

@@ -1,0 +1,52 @@
+<extend name="Base/common"/>
+<!-- header start -->
+<block name="header">
+
+<!-- title -->
+    <h3><a href="index.html">首页</a>&nbsp;&gt;&nbsp;<a href="javascript:void(0)">概况</a></h3>
+
+</block>
+<!-- header  -->
+
+<block name="content">
+	 <!-- 左侧侧边栏 -->
+        <dl class="content-left">
+            <dt>概况</dt>
+            <dd><a href="{:U('Introduce/index',array('id'=>18))}" class=<eq name="sidebar" value="bgjs">'action'<else/>''</eq>>本馆建设</a></dd>
+            <dd><a href="{:U('Introduce/index',array('id'=>19))}" class=<eq name="sidebar" value="fbts">'action'<else/>''</eq>>分布图示</a></dd>
+            <dd><a href="{:U('Introduce/index',array('id'=>20))}" class=<eq name="sidebar" value="gsfm">'action'<else/>''</eq>>馆舍风貌</a></dd>
+            <dd><a href="{:U('Introduce/index',array('id'=>23))}" class=<eq name="sidebar" value="bmsz">'action'<else/>''</eq>>部门设置</a></dd>
+            <dd><a href="{:U('Introduce/index',array('id'=>9,'type'=>1))}" class=<eq name="sidebar" value="gzdt">'action'<else/>''</eq>>工作动态</a></dd>
+            <dd><a href="{:U('Introduce/index',array('id'=>11,'type'=>1))}" class=<eq name="sidebar" value="yjya">'action'<else/>''</eq>>应急预案</a></dd>
+        </dl>
+        <!-- 右侧内容区 -->
+        <div class="content-right">         
+            <h2><a href="javascript:void(0)">
+                <switch name="sidebar">
+                    <case value="bgjs">本馆建设</case>
+                    <case value="fbts">分布图示</case>
+                    <case value="gsfm">馆舍风貌</case>
+                    <case value="bmsz">部门设置</case>
+                    <case value="gzdt">工作动态</case>
+                    <case value="yjya">应急预案</case>
+                    <default />其他
+                </switch>
+                </a><span class="fold">折叠</span></h2>
+                <eq name="sidebarTab" value="1">
+                    <ul class="content">
+                        <volist name="list" id="vo">
+                            <li><a href="{:U('Introduce/ShowArticle',array('id'=>$vo['id']))}">{$vo.title}</a><span>{$vo.createtime|date='m-d',###}</span></li>
+                        </volist>
+                    </ul>
+                    <else/>
+                    <div class="content">
+                        <div class="conTxt">
+                            <div id="fontzoom">
+                              {$info.content}
+                            </div>
+                        </div>
+                    </div>
+                </eq>
+            
+        </div>
+</block>

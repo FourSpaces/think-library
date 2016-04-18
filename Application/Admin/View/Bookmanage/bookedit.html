@@ -67,7 +67,7 @@
             
             <li>
               <label>作者</label>
-              <input id="input_author" name="author"  type="text" value="{$info.author|default='0'}" class="input-xlarge" datatype="s2-12" errormsg="排序值不能为空" sucmsg="&nbsp;">
+              <input id="input_author" name="author"  type="text" value="{$info.author|default=''}" class="input-xlarge" datatype="s2-12" errormsg="排序值不能为空" sucmsg="&nbsp;">
               <span class="Validform_checktip"></span>
             </li>
             
@@ -83,7 +83,7 @@
               <span class="Validform_checktip"></span>
             </li>
 
-            <li>
+            <li style="display:none;">
               <label>封面</label>
               <input id="input_frontcover" name="frontcover" type="number" value="{$info.frontcover|default='0'}" class="input-xlarge" datatype="*" errormsg="排序值不能为空" sucmsg="&nbsp;">
               <!--

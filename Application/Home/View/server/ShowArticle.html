@@ -1,0 +1,32 @@
+<extend name="Base/common"/>
+<!-- header start -->
+<block name="header">
+
+<!-- title -->
+    <h3><a href="index.html">首页</a>&nbsp;&gt;&nbsp;<a href="javascript:void(0)">服务</a></h3>
+
+</block>
+<!-- header  -->
+
+<block name="content">
+	 <div class="mainContent" id="mainContent">
+      <div class="wBd">
+        <!-- 正文内容 S -->
+            <div class="articleCon"> 
+              <!-- 标题 -->
+              <h2 class="title">{$info.title}</h2>
+              <h4 class="subTitle"></h4>
+              <div class="property">
+                    <span>发布时间：{$info.createtime|date='Y-m-d H:i',###}</span>
+              </div>
+              <!-- 正文 -->
+              <div class="conTxt">
+                    <div id="fontzoom">
+                      {$info.content}
+                    </div>
+              </div>
+            </div>
+        <!-- 正文内容 E -->
+      </div>
+    </div>
+</block>

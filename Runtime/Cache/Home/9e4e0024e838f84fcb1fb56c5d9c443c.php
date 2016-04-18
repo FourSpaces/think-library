@@ -3,7 +3,7 @@
 <head>
 	  <!-- 头部 -->
     <meta charset="UTF-8">
-    <title>服务-大连大学图书馆</title>
+    <title><?php echo C('WebTitle');?></title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -220,26 +220,13 @@
             <!-- 一级导航菜单 -->
             <ul class="menu">
 
-                <li class=<?php if(($pagetab) == "server"): ?>"active"<?php else: ?>""<?php endif; ?>>
+                <li class=<?php if(($pagetab) == "Server"): ?>"active"<?php else: ?>""<?php endif; ?>>
                     <a href="<?php echo U('/Server');?>" class="service">服务</a>
                     <ul class="sub-menu">
                         <li><a href="javascript:void(0)">入馆指南</a></li>
                         <li><a href="javascript:void(0)">投稿指南</a></li>
                         <li><a href="javascript:void(0)">信息咨询</a></li>
-                        <!--
-                        <li><a href="javascript:void(0)">自习室预约</a></li>
-                        -->
                         <li><a href="javascript:void(0)">通知</a></li>
-                        
-                        <!--
-                        <li><a href="javascript:void(0)">学位论文提交</a></li>
-                        <li><a href="javascript:void(0)">讲座培训</a></li>
-                        <li><a href="javascript:void(0)">学科服务</a></li>
-                        <li><a href="javascript:void(0)">文献传递</a></li>
-                        <li><a href="javascript:void(0)">VPN服务</a></li>
-                        <li><a href="javascript:void(0)">文件下载</a></li>
-                        <li><a href="javascript:void(0)">阅读推荐</a></li>
-                        -->
                     </ul>
                 </li>
                 <li class=<?php if(($pagetab) == "Introduce"): ?>"active"<?php else: ?>""<?php endif; ?>>
@@ -255,13 +242,6 @@
                         -->
                     </ul>
                 </li>
-                <li class=<?php if(($pagetab) == "SpecialLibrary"): ?>"active"<?php else: ?>""<?php endif; ?>>
-                    <a href="<?php echo U('/SpecialLibrary');?>" class="charmlibrary">魅力图书馆</a>
-                    <ul class="sub-menu">
-                        <li><a href="javascript:void(0)">按时间分类</a></li>
-                        <li><a href="javascript:void(0)">按期刊分类</a></li>
-                    </ul>
-                </li>
                 <li class=<?php if(($pagetab) == "PrivateLibrary"): ?>"active"<?php else: ?>""<?php endif; ?>>
                     <a href="<?php echo U('/PrivateLibrary');?>" class="resource">我的图书馆</a>
                     <!-- 二级导航菜单 -->
@@ -271,20 +251,6 @@
                         <li><a href="javascript:void(0)">借书/还书</a></li>
                         <li><a href="javascript:void(0)">借阅记录</a></li>
                         
-                    </ul>
-                </li>
-
-                <li style="display:none;">
-                    <a href="javascript:void(0)" class="thinker">思想者</a>
-                    <ul class="sub-menu">
-                        <li><a href="javascript:void(0)">沁心美文</a></li>
-                        <li><a href="javascript:void(0)">名著欣赏</a></li>
-                        <li><a href="javascript:void(0)">大爱无疆</a></li>
-                        <li><a href="javascript:void(0)">心灵驿站</a></li>
-                        <li><a href="javascript:void(0)">阅读指南</a></li>
-                        <li><a href="javascript:void(0)">科学沙龙</a></li>
-                        <li><a href="javascript:void(0)">文化雨露</a></li>
-                        <li><a href="javascript:void(0)">就业指导</a></li>
                     </ul>
                 </li>
             </ul>
@@ -368,16 +334,13 @@
                 <h4>开馆时间：</h4>
                 <p>图书馆主楼</p>
                 <p>周一至周五8:10-21:40 周六、日8:50-21:40</p>
-                <p>辅楼 6:10-21:40</p>
             </li>
             <li>
                 <div class="msgbox">
                     <h4>联系方式：</h4>
-                    <p><span>地 址：</span>大连经济技术开发区学府大街10号</p>
-                    <p><span>电 话：</span>0411-87402853</p>
-                    <p><span>传 真：</span>0411-87402853</p>
-                    <p><span>交通方式：</span>火车站-大连大学</p>
-                    <p><span>邮政编码：</span>116622</p>
+                    <p><span>地 址：</span><?php echo C('Address');?></p>
+                    <p><span>电 话：</span><?php echo C('Telephone');?></p>
+                    <p><span>邮政编码：</span><?php echo C('ZipCode');?></p>
                 </div>
             </li>
             <li>

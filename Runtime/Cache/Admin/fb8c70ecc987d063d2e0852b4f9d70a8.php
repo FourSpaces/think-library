@@ -96,25 +96,18 @@
 
     <!-- 侧边栏导航 start  -->
     <div class="sidebar-nav">
-        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>Dashboard</a>
+        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>图书管理系统</a>
         <ul id="dashboard-menu" class=<?php if(($menuTab) == "dashboard-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
-            <li class=<?php if(($pageTab) == "pageSY"): ?>"active"<?php else: ?>""<?php endif; ?> ><a href="<?php echo U('Admin/Index/index');?>">首页</a></li>
-            <li class=<?php if(($pageTab) == "pageWZPZ"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Config/index');?>">网站配置</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="users.html">Sample List</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="media.html">Media</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="calendar.html">Calendar</a></li>
-            
+            <li class=<?php if(($pageTab) == "pageWZPZ"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Config/index');?>">首页</a></li>
         </ul>
 
         <a href="#user-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>用户管理<i class="icon-chevron-up"></i></a>
         <ul id="user-menu" class=<?php if(($menuTab) == "user-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageDZGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/ReadersList');?>">读者管理</a></li>
             <li class=<?php if(($pageTab) == "pageGLYGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/AdministratorList');?>">管理员管理</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="500.html">500 page</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="503.html">503 page</a></li>
         </ul>
 
-        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<span class="label label-info">+3</span></a>
+        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<i class="icon-chevron-up"></i></a>
         <ul id="books-menu" class=<?php if(($menuTab) == "books-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageTSLX"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookstyle');?>">图书类型</a></li>
             <li class=<?php if(($pageTab) == "pageCBS"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/presslist');?>">出版社列表</a></li>
@@ -122,7 +115,7 @@
             <li style="display:none;" class=<?php if(($pageTab) == "pageJHSH"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookcheck');?>">借还审核</a></li>
         </ul>
 
-        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理</a>
+        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理<i class="icon-chevron-up"></i></a>
         <ul id="rich-menu" class=<?php if(($menuTab) == "rich-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageWZFL"): ?>"active"<?php else: ?>""<?php endif; ?>>
                 <a href="<?php echo U('Article/ArticleType');?>">文章分类</a></li>
@@ -130,7 +123,7 @@
                 <a href="<?php echo U('Article/ArticleList');?>">文章列表</a></li>
         </ul>
 
-        <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>Help</a>
+       
         <a href="faq.html" class="nav-header" style="display:none;" ><i class="icon-comment"></i>Faq</a>
     </div>
     <!-- 侧边栏导航 end  -->
@@ -222,7 +215,7 @@
 </div>
 
 
-<script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/jquery-1.12.2.min.js" type="text/javascript"></script>
+<script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/jquery-2.0.2.js" type="text/javascript"></script>
 <script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/bootstrap/js/bootstrap.js"></script>
 <script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/js/Validform_v5.3.2_min.js" type="text/javascript"></script>
 <script type="text/javascript">

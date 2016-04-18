@@ -78,8 +78,6 @@
                     </form>
                 </div>
             </div>
-            <p class="pull-right" style=""><a href="#" target="blank">Theme by Portnine</a></p>
-            <p><a href="reset-password.html">忘记了密码?</a></p>
         </div>
     </div>
 

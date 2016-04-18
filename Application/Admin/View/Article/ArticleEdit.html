@@ -1,0 +1,126 @@
+<extend name="Base/common"/>
+
+<!-- header start -->
+<block name="header">
+  <div class="header">
+      <h1 class="page-title">文章内容</h1>
+  </div>
+
+  <ul class="breadcrumb">
+    <li><a href="">首页</a> <span class="divider">/</span></li>
+    <li class="active"><eq name="titleTab" value="1">添加<else/>编辑</eq>文章</li>
+  </ul>
+</block>
+<!-- header  -->
+
+
+<block name="content">
+<div class="container-fluid">
+  <div class="row-fluid"><br/>
+  <div class="well">
+     <form class="demoform" action="{:U('')}">
+      <input name='id' type="hidden" value="{$info.id|default=''}">
+      <ul style="list-style-type: none;">
+        <li>
+          <label>文章标题</label>
+          <input  name="title" type="text" value="{$info.title|default=''}" class="input-xlarge" datatype="*2-40" errormsg="文章标题 2~40个字符！" sucmsg="&nbsp;">
+          <span class="Validform_checktip"></span>
+        </li>
+        <li>
+          <label>文章简介</label>
+          <textarea name="summary" class="input-xlarge" datatype="*" errormsg="文章简介不能为空！" sucmsg="&nbsp;">{$info.summary|default=''}</textarea>
+          <span class="Validform_checktip"></span>
+        </li>
+        <li>
+          <label>文章分类</label>
+          <select name="type" class="input-xlarge" datatype="*" errormsg="请选择文章分类" sucmsg="&nbsp;">
+            <option value>---请选择---</option>
+            <empty name="info.type">
+              <volist name="sort" id="vo">
+                <option value='{$vo.id}'>{$vo.name}</option>
+              </volist>
+            <else/>
+              <volist name="sort" id="vo">
+                <option value='{$vo.id}' <eq name="vo.id" value="$info.type"> selected="selected"</eq> >{$vo.name}</option>
+              </volist>
+            </empty>
+           
+           
+          </select>
+          <span class="Validform_checktip"></span>
+        </li>
+        <li>
+          <label>文章内容</label>
+          <textarea  id="container" name="content" datatype="*" errormsg="文章内容不能为空" sucmsg="&nbsp;">
+            {$info.content|default=''}
+          </textarea>
+          <span class="Validform_checktip"></span>
+        </li>
+        <li>
+          <div class="btn-toolbar">
+            <button type="submit" class="btn btn-primary"><i class="icon-save"></i> 提交</button>
+            <a href="#myModal" data-toggle="modal" class="btn">返回</a>
+            <div class="btn-group"></div>
+          </div>
+        </li>
+      </ul>
+
+    </form>
+  </div>
+            
+  </div>
+</div>
+</block>
+
+<block name="script">
+  <!--
+    <js href="__PUBLIC__/js/jquery-2.0.2.js" />
+  -->
+    <js href="__PUBLIC__/ueditor/ueditor.config.js" />    
+    <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
+  <script>
+  $(function() {
+
+
+
+      //初始化表单插件
+        var validform = $(".demoform").Validform({
+          tiptype:function(msg,o,cssctl){
+          //msg：提示信息;
+          //o:{obj:*,type:*,curform:*}, obj指向的是当前验证的表单元素（或表单对象），type指示提示的状态，值为1、2、3、4， 1：正在检测/提交数据，2：通过验证，3：验证失败，4：提示ignore状态, curform为当前form对象;
+          //cssctl:内置的提示信息样式控制函数，该函数需传入两个参数：显示提示信息的对象 和 当前提示的状态（既形参o中的type）;
+              if(!o.obj.is("form")){
+              //验证表单元素时o.obj为该表单元素，全部验证通过提交表单时o.obj为该表单对象;
+                  var objtip=o.obj.siblings(".Validform_checktip");
+                  cssctl(objtip,o.type);
+                  objtip.text(msg);
+              }
+          },
+          ajaxPost:true,
+          callback:function(data){
+              
+              if(data.status=="1"){
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                  $.Showmsg(data.info+'正在跳转，请稍后!');
+                  setTimeout(function(){$.Hidemsg();
+                      location.href = data.url;},2000);
+              }
+              else{
+                  //$.Hidemsg()公用方法关闭信息提示框;
+                  //显示方法是$.Showmsg("message goes here.");
+                $.Showmsg(data.info);
+                setTimeout(function(){$.Hidemsg(); },2000);
+              }
+          }
+
+        });
+
+            //初始化文章插件
+        var ue = UE.getEditor('container',{
+          serverUrl :"{:U('Admin/Article/ueditor')}",
+          initialFrameHeight:280,initialFrameWidth:980
+        });
+  });
+  </script>
+</block>

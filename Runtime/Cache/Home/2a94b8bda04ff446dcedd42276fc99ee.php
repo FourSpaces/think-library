@@ -118,7 +118,7 @@
 				<ul class="item" id="tab-msg">
 					<li class="on-blue"><a href="<?php echo U('Server/ShowArticle',array('id'=>14));?>">学科服务</a></li>
 					<li><a href="#">文献传递</a></li>
-					<li><a href="<?php echo U('Server/ShowArticle',array('id'=>15));?>">信息咨询</a></li>
+					<li><a href="<?php echo U('Server/ShowArticle',array('id'=>15));?>">常见问题</a></li>
 				</ul>
 				<div class="content-list-blue">
 					<!-- 学科服务简介 -->
@@ -143,14 +143,14 @@
 			<div class="content-right">
 				<!-- 导航图标 -->
 				<ul class="service-icon">
-					<li>
+					<li style="display:none;">
 						<a href="<?php echo U('Server/ShowArticle',array('id'=>13));?>" class="icon1 brown">学位论文提交</a>
 					</li>
 					<li>
 						<a href="<?php echo U('Server/ShowArticle',array('id'=>17));?>" class="icon2 brown">VPN服务</a>
 					</li>
 					<li>
-						<a href="<?php echo U('Server/ShowArticle',array('id'=>12));?>" class="icon3 brown">自习室预约</a>
+						<a href="<?php echo U('Server/ShowArticle',array('id'=>12));?>" class="icon3 brown">关于自习室</a>
 					</li>
 					<li>
 						<a href="javascript:alert('cheng1483@163.com')" class="icon4 brown">馆长信箱</a>
@@ -319,7 +319,7 @@
 			</div>
 			<!-- 右侧内容(百度地图) -->
 			<div class="content-right" id="bdmap">
-				<!-- <img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/map.png" width="615" height="468"> -->
+				<img src="<?php echo C('DOMAIN');?>./Application/Home/View/workshop/images/map.png" width="615" height="468">
 			</div>
 		</div>
 	</div>

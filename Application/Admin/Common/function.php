@@ -27,3 +27,36 @@ function is_administrator($uid = null){
     $uid = is_null($uid) ? is_login() : $uid;
     return $uid && (intval($uid) === C('USER_ADMINISTRATOR'));
 }
+
+
+function get_user($field = null,$id = null){
+    if(empty($id) && !is_numeric($id)){
+        return false;
+    }
+
+    $list = null;
+    if(empty($list[$id])){
+	    $map = array('userid'=>$id);
+	    $list[$id] = M('Readerinfo')->where($map)->field(true)->find();
+	}
+    return empty($field) ? $list[$id] : $list[$id][$field];
+}
+
+function get_user_type($field = null,$id = null){
+	if(empty($id) && !is_numeric($id)){
+        return false;
+    }
+
+    
+	$map = array('userid'=>$id);
+	$value = M('Readerinfo')->where($map)->getField($field);
+	
+	if($value==1){
+		return "学生";
+	}else if($value==2){
+		return "教师";
+	}else{
+		return false;
+
+	}
+}

@@ -51,11 +51,11 @@
                               <td>{$order.endttime|date='Y-m-d H:i',###}</td>
                               <td>
                                 <switch name="order.status">
-                                  <case value="0">已过期</case>
-                                  <case value="1">借阅中</case>
-                                  <case value="2">已还回</case>
-                                  <case value="3">借出审核中</case>
-                                  <case value="4">还回审核中</case>
+                                  <case value="0"><b style="color: #FF0000;">已过期</b></case>
+                                  <case value="1"><b style="color: #012AFF;">借阅中</b></case>
+                                  <case value="2"><b style="color: #43FF08;">已还回</b></case>
+                                  <case value="3"><b style="color: #012AFF;">借出审核中</b></case>
+                                  <case value="4"><b style="color: #012AFF;">还回审核中</b></case>
                                   <default />未知状态
                                 </switch>
                               </td>

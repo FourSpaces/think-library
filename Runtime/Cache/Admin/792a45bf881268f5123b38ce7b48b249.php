@@ -43,6 +43,10 @@
             /* border: 1px solid #dddddd; */
             border-left-width: 0;
         }
+
+        .table td{
+            text-overflow:ellipsis;
+        }
     </style>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -96,39 +100,34 @@
 
     <!-- 侧边栏导航 start  -->
     <div class="sidebar-nav">
-        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>Dashboard</a>
+        <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>图书管理系统</a>
         <ul id="dashboard-menu" class=<?php if(($menuTab) == "dashboard-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
-            <li class=<?php if(($pageTab) == "pageSY"): ?>"active"<?php else: ?>""<?php endif; ?> ><a href="<?php echo U('Admin/Index/index');?>">首页</a></li>
-            <li class=<?php if(($pageTab) == "pageWZPZ"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Config/index');?>">网站配置</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="users.html">Sample List</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="media.html">Media</a></li>
-            <li class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="calendar.html">Calendar</a></li>
-            
+            <li class=<?php if(($pageTab) == "pageWZPZ"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Config/index');?>">首页</a></li>
         </ul>
 
         <a href="#user-menu" class="nav-header collapsed" data-toggle="collapse"><i class="icon-exclamation-sign"></i>用户管理<i class="icon-chevron-up"></i></a>
         <ul id="user-menu" class=<?php if(($menuTab) == "user-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageDZGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/ReadersList');?>">读者管理</a></li>
             <li class=<?php if(($pageTab) == "pageGLYGL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Usermanage/AdministratorList');?>">管理员管理</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="500.html">500 page</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "page1"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="503.html">503 page</a></li>
         </ul>
 
-        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<span class="label label-info">+3</span></a>
+        <a href="#books-menu" class="nav-header" data-toggle="collapse"><i class="icon-briefcase"></i>图书管理<i class="icon-chevron-up"></i></a>
         <ul id="books-menu" class=<?php if(($menuTab) == "books-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
             <li class=<?php if(($pageTab) == "pageTSLX"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookstyle');?>">图书类型</a></li>
             <li class=<?php if(($pageTab) == "pageCBS"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/presslist');?>">出版社列表</a></li>
             <li class=<?php if(($pageTab) == "pageTSLB"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/booklist');?>">图书列表</a></li>
-            <li style="display:none;" class=<?php if(($pageTab) == "pageJHSH"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookcheck');?>">借还审核</a></li>
+            <li style="" class=<?php if(($pageTab) == "pageJHSH"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="<?php echo U('Admin/Bookmanage/bookcheck');?>">借还记录</a></li>
         </ul>
 
-        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理</a>
+        <a href="#rich-menu" class="nav-header" data-toggle="collapse"><i class="icon-legal"></i>文章管理<i class="icon-chevron-up"></i></a>
         <ul id="rich-menu" class=<?php if(($menuTab) == "rich-menu"): ?>"nav nav-list collapse in"<?php else: ?>"nav nav-list collapse"<?php endif; ?>>
-            <li class=<?php if(($pageTab) == "pageWZFL"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="privacy-policy.html">文章分类</a></li>
-            <li class=<?php if(($pageTab) == "pageWZLB"): ?>"active"<?php else: ?>""<?php endif; ?>><a href="terms-and-conditions.html">文章列表</a></li>
+            <li class=<?php if(($pageTab) == "pageWZFL"): ?>"active"<?php else: ?>""<?php endif; ?>>
+                <a href="<?php echo U('Article/ArticleType');?>">文章分类</a></li>
+            <li class=<?php if(($pageTab) == "pageWZLB"): ?>"active"<?php else: ?>""<?php endif; ?>>
+                <a href="<?php echo U('Article/ArticleList');?>">文章列表</a></li>
         </ul>
 
-        <a href="help.html" class="nav-header" ><i class="icon-question-sign"></i>Help</a>
+       
         <a href="faq.html" class="nav-header" style="display:none;" ><i class="icon-comment"></i>Faq</a>
     </div>
     <!-- 侧边栏导航 end  -->
@@ -138,12 +137,12 @@
 	<div class="content">
     
   <div class="header">
-      <h1 class="page-title">图书类型</h1>
+      <h1 class="page-title">借还列表</h1>
   </div>
 
   <ul class="breadcrumb">
     <li><a href="index.html">首页</a> <span class="divider">/</span></li>
-    <li class="active">类型列表</li>
+    <li class="active">借还列表</li>
   </ul>
 
 	
@@ -152,114 +151,47 @@
             
 
 <div class="btn-toolbar">
-    <button class="btn btn-primary"><i class="icon-plus"></i>添加类型</button>
-    <!--
-    <button class="btn">Import</button>
-    <button class="btn">Export</button>
-  -->
-  <div class="btn-group">
-  </div>
-</div>
-<div class="well">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>图书类型</th>
-          <th>排序</th>
-          <th>创建时间</th>
-          <th style="width: 26px;"></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Tompson</td>
-          <td>the_mark7</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Ashley</td>
-          <td>Jacobs</td>
-          <td>ash11927</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Audrey</td>
-          <td>Ann</td>
-          <td>audann84</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>John</td>
-          <td>Robinson</td>
-          <td>jr5527</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Aaron</td>
-          <td>Butler</td>
-          <td>aaron_butler</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Chris</td>
-          <td>Albert</td>
-          <td>cab79</td>
-          <td>
-              <a href="user.html"><i class="icon-pencil"></i></a>
-              <a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-</div>
-<div class="pagination">
-    <ul>
-        <li><a href="#">Prev</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">Next</a></li>
-    </ul>
 </div>
 
-<div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">Delete Confirmation</h3>
-    </div>
-    <div class="modal-body">
-        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
-    </div>
-    <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
-    </div>
-</div>
-            
+              <div class="well">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                            <th>图书名字</th>
+                            <th>图书IBIN码</th>
+                            <th>借出时间</th>
+                            <th>违约时间</th>
+                            <th>借阅人</th>
+                            <th>读者类型</th>
+                            <th>状态</th>
+                          </tr>
+                      </thead>
+                      <tbody id ="book-tbdoy">
+                        <?php if(!empty($list)): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$order): $mod = ($i % 2 );++$i;?><tr>
+                              <td style="width: 120px;"><?php echo ($order["bookname"]); ?></td>
+                              <td style="width: 140px;"><?php echo ($order["isbn"]); ?></td>
+                              <td style="width: 120px;"><?php echo (date('Y-m-d H:i',$order["borrowtime"])); ?></td>            
+                              <td style="width: 120px;"><?php echo (date('Y-m-d H:i',$order["endttime"])); ?></td>
+                              <td style="width: 120px;"><?php echo (get_user('username',$order["readerid"])); ?></td>
+                              <td style="width: 120px;"><?php echo (get_user_type('typeid',$order["readerid"])); ?></td>
+                              <td>
+                                <?php switch($order["status"]): case "0": ?><b style="color: #FF0000;">已过期</b><?php break;?>
+                                  <?php case "1": ?><b style="color: #012AFF;">借阅中</b><?php break;?>
+                                  <?php case "2": ?><b style="color: #43FF08;">已还回</b><?php break;?>
+                                  <?php case "3": ?><b style="color: #012AFF;">借出审核中</b><?php break;?>
+                                  <?php case "4": ?><b style="color: #012AFF;">还回审核中</b><?php break;?>
+                                  <?php default: ?>未知状态<?php endswitch;?>
+                              </td>
+                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                                      
+                          <?php else: ?>
+                          <td colspan="6" class="text-center"> aOh! 暂时还没有内容! </td><?php endif; ?>
+                      </tbody>
+                  </table>
+              </div>
+              <div class="pagination">
+                <?php echo ($_page); ?>
+              </div> 
     </div>
 </div>
 
@@ -272,7 +204,7 @@
 </div>
 
 
-<script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/jquery-1.12.2.min.js" type="text/javascript"></script>
+<script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/jquery-2.0.2.js" type="text/javascript"></script>
 <script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/lib/bootstrap/js/bootstrap.js"></script>
 <script src="<?php echo C('DOMAIN');?>./Application/Admin/View/workshop/js/Validform_v5.3.2_min.js" type="text/javascript"></script>
 <script type="text/javascript">

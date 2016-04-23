@@ -74,4 +74,46 @@ class BookinfoModel extends Model{
     	return $return;
     }
 
+    public function getvalue($data = array()){
+    	$data['status'] = 1;
+    	$return = $this->where($data)->find();
+    	return $return;
+    }
+
+    public function updatanum($bookid,$tab = true){
+    	$data['status'] = 1;
+    	$data['id'] = $bookid;
+
+
+    	$into = $this->where($data)->find();
+
+    	if(!empty($into)){
+    		if($tab){
+    			//还书
+    			if($into['nownum'] <= -1){
+    				$data['nownum'] = $into['nownum']+1; 
+    			}
+    			else{
+    				return -11; //记录出错
+    			}
+    		}else{
+    			//借书
+    			if($into['nownum'] > (0-$into['sumnum'])){
+    				$data['nownum'] = $into['nownum']-1; 
+    			}
+    			else{
+    				return -11; //记录出错
+    			}
+    		}
+
+    		$into = $this->save($data);
+
+    		return $into;
+    	}
+    	else{
+    		return -10; //图书不存在
+    	}
+    }
+
+
 }

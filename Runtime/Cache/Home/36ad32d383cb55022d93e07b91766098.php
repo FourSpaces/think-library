@@ -321,11 +321,11 @@
                               <td><?php echo (date('Y-m-d H:i',$order["borrowtime"])); ?></td>            
                               <td><?php echo (date('Y-m-d H:i',$order["endttime"])); ?></td>
                               <td>
-                                <?php switch($order["status"]): case "0": ?>已过期<?php break;?>
-                                  <?php case "1": ?>借阅中<?php break;?>
-                                  <?php case "2": ?>已还回<?php break;?>
-                                  <?php case "3": ?>借出审核中<?php break;?>
-                                  <?php case "4": ?>还回审核中<?php break;?>
+                                <?php switch($order["status"]): case "0": ?><b style="color: #FF0000;">已过期</b><?php break;?>
+                                  <?php case "1": ?><b style="color: #012AFF;">借阅中</b><?php break;?>
+                                  <?php case "2": ?><b style="color: #43FF08;">已还回</b><?php break;?>
+                                  <?php case "3": ?><b style="color: #012AFF;">借出审核中</b><?php break;?>
+                                  <?php case "4": ?><b style="color: #012AFF;">还回审核中</b><?php break;?>
                                   <?php default: ?>未知状态<?php endswitch;?>
                               </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>

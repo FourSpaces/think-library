@@ -1,10 +1,10 @@
 <?php
 
-namespace Home\Model;
+namespace Admin\Model;
 use Think\Model;
 
 /**
- * 图书 模型
+ * 借书模型
  */
 class BorrowinfoModel extends Model{
 

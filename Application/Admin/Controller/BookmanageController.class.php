@@ -389,23 +389,41 @@ class BookmanageController extends AdminController {
 
 /*************************图书分类**************************/
     /**
-     * [bookcheck 图书状态审核]
+     * [bookcheck 图书状态]
      * @return [type] [description]
      */
     public function bookcheck(){
-        //导航标签
-        $this->assign('pageTab', 'pageJHSH');
-    	$this->display();
-    }
+        if(IS_POST){
 
-    /*
-    if(IS_POST){
-        //如果是POST请求    
-        }else{
-        //如果不是POST 请求
-        $this->display();   
+      }else{
+        //更新状态方法()
+        D('Borrowinfo')->updatestatus();
+        /* 查询条件初始化 */
+        $map = array();
+        //$map['status'] = array('LT',2);
+        //$map['readerid'] = $authIfon['userid'];
+        $status = I('get.status',-1);
+        if($status !=-1){
+            $map['status'] = $status;
         }
-     */
+
+        $list = $this->lists('Borrowinfo', $map,'id desc');
+        
+        $Book = D('Bookinfo');
+
+        for($i = 0; $i < count($list); $i++){
+          $data = array();
+          $data['id'] = $list[$i]['bookid'];
+          $into = $Book ->getvalue($data);
+          $list[$i]['bookname'] = $into['bookname'];
+          $list[$i]['isbn'] = $into['isbn'];
+        }
+
+        $this->assign('list', $list);
+        $this->assign('sidebar', 'pageJHSH');
+        $this->display();
+      }
+    }
 
     /**
      * 获取分类错误信息

@@ -9,8 +9,8 @@ return array(
     'DB_PORT'   => '3306', // 端口
     'DB_PREFIX' => 'lib_', // 数据库表前缀
 
-    'STUDENT_TERM' => 3600,
-    'TEACHER_TERM' => 7200,
+    'STUDENT_TERM' => 3600*24*30,
+    'TEACHER_TERM' => 7200*24*30,
 
 
 

@@ -181,6 +181,9 @@ class PrivateLibraryController extends HomeController {
 
       }else{
         $authIfon = $this->userauthinfo();
+
+        //更新状态方法()
+        D('Borrowinfo')->updatestatus();
         /* 查询条件初始化 */
         $map = array();
         //$map['status'] = array('LT',2);
@@ -189,7 +192,7 @@ class PrivateLibraryController extends HomeController {
         //更新图书状态
         //更新状态方法（）
 
-        $list = $this->lists('Borrowinfo', $map,'id asc');
+        $list = $this->lists('Borrowinfo', $map,'id desc');
         
         $Book = D('Bookinfo');
 
